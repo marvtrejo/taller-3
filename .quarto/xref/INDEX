@@ -1,0 +1,47 @@
+{
+  "index.qmd": {
+    "index.html": "01edda57"
+  },
+  "about.qmd": {
+    "about.html": "0505f0d0"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "f29cea2d"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "9d5ba23d"
+  },
+  "posts/01_sel/index.qmd": {
+    "index.html": "97843606"
+  },
+  "posts/01_ejercicios/index.qmd": {
+    "index.html": "d8b1f661"
+  },
+  "posts/01_tarea/index.qmd": {
+    "index.html": "fde2a641"
+  },
+  "posts/02_matrices/index.qmd": {
+    "index.html": "fa6156ed"
+  },
+  "posts/02_tarea/index.qmd": {
+    "index.html": "61aa5d62"
+  },
+  "posts/03_determinante/03_determinantes.qmd": {
+    "03_determinantes.html": "2ae20650"
+  },
+  "posts/03_ejercicios/03_ejercicios.qmd": {
+    "03_ejercicios.html": "81e237d6"
+  },
+  "posts/03_tarea/03_tarea.qmd": {
+    "03_tarea.html": "0fb94543"
+  },
+  "posts/04_inversa/04_inversa.qmd": {
+    "04_inversa.html": "fe4dd9f7"
+  },
+  "posts/04_tarea/04_tarea.qmd": {
+    "04_tarea.html": "73b642d8"
+  },
+  "posts/05_vectores/05_vectores.qmd": {
+    "05_vectores.html": "2de625b7"
+  }
+}

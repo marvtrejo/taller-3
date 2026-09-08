@@ -1,0 +1,13 @@
+---
+title: "Taller de Economía Cuantitativa III"
+listing:
+  contents: posts
+  feed: true
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
