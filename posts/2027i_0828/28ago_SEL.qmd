@@ -1,0 +1,395 @@
+---
+title: "Clase 01: Sistemas de ecuaciones lineales"
+author: "Eduardo Castro; Marvin Trejo"
+date: "2026-08-28"
+categories: [Apunte de clase, 2027-I]
+---
+
+```{r librerias, include = FALSE}
+library(highcharter)
+library(webexercises)
+```
+
+# Ecuaciones
+
+Una ecuación es una igualdad matemática en la que existen una o varias incógnitas y que solo es verdadera para determinados valores de las incógnitas.
+
+Las incógnitas se pueden representar con cualquier letras del alfabeto $(a,b,c,..., x, y,z)$ e incluso pueden contener subíndices $(x_1, y_1, ..., Q_d, Q_s)$.
+
+Podemos conocer el valor de una incógnita despejando el resto de los valores, para ello es necesario realizar la misma operación en ambos términos de de la ecuación.
+
+
+# Sistemas de Ecuaciones Lineales
+
+Los sistemas de ecuaciones lineales son una herramienta importante para la solución de problemas que involucran a más de dos variables y tienen múltiples aplicaciones en la economía.
+
+Un sistema de ecuaciones lineales consiste en un conjunto de dos o más ecuaciones con varias incógnitas, a través de los cuales es posible encontrar los valores que satisfacen todas las ecuaciones al mismo tiempo. Estos valores se conocen como solución o conjunto solución y se pueden presentar de distintas maneras.
+
+$$
+\begin{align}
+a_{11}x_1+a_{12}y_1 &= b_1 \\
+a_{21}x_2+a_{22}y_2 &= b_2
+\end{align}
+$$
+
+## Tipos de soluciones
+
+::: panel-tabset
+### Solución única
+
+Este tipo de solución cuenta con un único conjunto de valores que satisfacen todas las ecuaciones del sistema. Gráficamente, esta solución se encuentra en el punto de intersección de las rectas del sistema. 
+
+$$
+\begin{align}
+x+y &= 4 \\
+x-y &= 2
+\end{align}
+$$
+
+```{r sol_unica, echo=FALSE}
+library(highcharter)
+
+# Rango de x
+x_val <- seq(-1, 5, 0.5)
+
+# Ecuaciones
+y1 <- 4 - x_val
+y2 <- x_val - 2
+
+# Solución del sistema
+A <- matrix(c(1,1, 1,-1), nrow=2, byrow=TRUE)
+b <- c(4,2)
+sol <- solve(A,b)
+
+# Gráfica
+df1 <- data.frame(x = x_val, y = y1)
+df2 <- data.frame(x = x_val, y = y2)
+df_sol <- data.frame(x = sol[1], y = sol[2])
+
+highchart() %>%
+  hc_add_series(df1, "line", hcaes(x = x, y = y), name = "x + y = 4", color = "blue") %>%
+  hc_add_series(df2, "line", hcaes(x = x, y = y), name = "x - y = 2", color = "red") %>%
+  hc_add_series(df_sol, "scatter", hcaes(x = x, y = y),
+                name = paste0("Solución (", sol[1], ", ", sol[2], ")"),
+                marker = list(symbol = "circle", radius = 6, fillColor = "black")) %>%
+  hc_title(text = "Solución única",
+           style = list(fontSize = "18px", fontWeight = "bold")) %>%
+  hc_legend(enabled = TRUE) %>% 
+  hc_xAxis(title = list(text = "x")) %>%
+  hc_yAxis(title = list(text = "y")) %>%
+  hc_tooltip(shared = TRUE)
+```
+
+### Soluciones infinitas
+
+Este tipo de solución se caracteriza por contar con más de un conjunto de valores que satisfacen el sistema de ecuaciones, es decir, el conjunto solución comprende todos los puntos de las rectas del sistema y gráficamente se observa como rectas superpuestas.
+
+$$
+\begin{align}
+2x+4y &= 8 \\
+x+2y &= 4
+\end{align}
+$$
+
+```{r sol_inf, echo=FALSE}
+# Rango de x
+x_val <- seq(-1, 5, 0.5)
+
+# Ecuaciones
+y1 <- 2 - x_val/2
+
+
+
+# Gráfica
+df1 <- data.frame(x = x_val, y = y1)
+
+highchart() %>%
+  hc_add_series(df1, "line", hcaes(x = x, y = y), name = "2x + 4y = 8", color = "blue") %>%
+  hc_add_series(df1, "line", hcaes(x = x, y = y), name = "x + 2y = 4", color = "red") %>%
+  
+  hc_title(text = "Soluciones infinitas",
+           style = list(fontSize = "18px", fontWeight = "bold")) %>%
+  hc_legend(enabled = TRUE) %>% 
+  hc_xAxis(title = list(text = "x")) %>%
+  hc_yAxis(title = list(text = "y")) %>%
+  hc_tooltip(shared = TRUE)
+```
+
+### Sin solución
+
+Existen casos en donde el sistema no tiene solución. Esto se debe a que las rectas que componen al sistema no tienen puntos en común, es decir, gráficamente son líneas paralelas.
+
+$$
+\begin{align}
+x+y &= 3 \\
+x+y &= 5
+\end{align}
+$$
+
+```{r sin_solucion, echo=FALSE}
+# Rango de x
+x_val <- seq(-1, 5, 0.5)
+
+# Ecuaciones
+y1 <- 3 - x_val
+y2 <- 5- x_val
+
+# Gráfica
+df1 <- data.frame(x = x_val, y = y1)
+df2 <- data.frame(x = x_val, y = y2)
+
+highchart() %>%
+  hc_add_series(df1, "line", hcaes(x = x, y = y), name = "x + y = 3", color = "blue") %>%
+  hc_add_series(df2, "line", hcaes(x = x, y = y), name = "x + y = 5", color = "red") %>%
+  hc_title(text = "Sin solución",
+           style = list(fontSize = "18px", fontWeight = "bold")) %>%
+  hc_legend(enabled = TRUE) %>% 
+  hc_xAxis(title = list(text = "x")) %>%
+  hc_yAxis(title = list(text = "y")) %>%
+  hc_tooltip(shared = TRUE)
+```
+
+:::
+
+::: {.callout-note icon=true}
+## Soluciones y determinante 
+El determinante de un sistema de ecuaciones nos proporciona información sobre el tipo de solución que tiene el sistema.
+
+* Cuando el determinante es distinto de cero $|A| \neq 0$, **el sistema tiene solución única**.
+* Cuando el determinante es cero $|A| = 0$, **el sistema no tiene solución o tiene soluciones infinitas**
+
+:::
+
+# Matrices
+
+Una matriz es un arreglo rectangular de $m$x$n$ números reales o complejos ordenados en $m$ filas horizontales y $n$ columnas verticales.
+
+-    $i$ filas $1 \leq i \leq m$
+
+-    $j$ columnas $1 \leq j \leq m$
+
+$$
+A = 
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+$$
+
+## Ejemplo 1
+
+Un sistema de ecuaciones se puede expresar en su forma matricial de la siguiente manera:
+
+$$
+\begin{aligned}
+3x+6y &= 9 \\
+-2x+3y &= 4\\
+\end{aligned}
+\implies
+\left[ 
+\begin{array}{cc|c}
+3 & 6 & 9 \\
+-2 & 3 & 4
+\end{array} 
+\right]
+$$
+
+Para conocer la solución al sistema, podemos empezar por calcular el determinante, en este caso está dado por:
+
+$$
+\begin{aligned}
+|A| &= a_{11} \cdot a_{22}-a_{12} \cdot a_{21} \\
+|A| &=3\cdot3-(6\cdot-2)=9+12=21
+\end{aligned}
+$$
+
+En este caso $|A| \neq 0$, por lo que podemos concluir que **el sistema tiene solución única**.
+
+Para encontrar la solución del sistema existen diferentes métodos, para este ejemplo utilizaremos el método de **Gauss-Jordan** que consiste en convertir en 1 todos los valores de la diagonal principal y en 0 el resto de los valores, es decir, tenemos que llegar a la siguiente forma:
+
+$$
+A = 
+\begin{bmatrix}
+1 & 0 \\
+0 & 1 \end{bmatrix}
+$$
+
+Para hacerlo, se pueden realizar las siguientes operaciones en las filas:
+
+- Sumar o restarse entre sí.
+- Intercambiarse.
+- Multiplicarse por un escalar.
+
+1)  Multiplicamos la fila 1 por 1/3
+
+$$
+\left[
+\begin{array}{cc|c}
+3 & 6 & 9 \\
+-2 & 3 & 4
+\end{array}
+\right]
+\;\;\xrightarrow{F_1=\tfrac{1}{3}F_1}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 2 & 3 \\
+-2 & 3 & 4
+\end{array}
+\right]
+$$
+
+
+2)  Multiplicamos la fila 1 por 2 y la sumamos a la fila 1.
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 2 & 3 \\
+-2 & 3 & 4
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=2F_1+F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 2 & 3 \\
+0 & 7 & 10
+\end{array}
+\right]
+$$
+
+
+3)  Multiplicamos la fila 2 por su recíproco $\frac{1}{7}$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 2 & 3 \\
+0 & 7 & 10
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=\frac{1}{7}F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 2 & 3 \\
+0 & 1 & \frac{10}{7}
+\end{array}
+\right]
+$$
+
+4)  Por último, multiplicamos la fila 2 por $-2$ y la sumamos a la fila 1 $F_1-2F_2+$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 2 & 3 \\
+0 & 1 & \frac{10}{7}
+\end{array}
+\right]
+\;\;\xrightarrow{F_1 = F_1- 2F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 0 & \frac{1}{7} \\
+0 & 1 & \frac{10}{7}
+\end{array}
+\right]
+$$
+
+**Solución** 
+
+$$ 
+\left[ 
+\begin{array}{cc|c}
+1 & 0 & \frac{1}{7} \\
+0 & 1 & \frac{10}{7}
+\end{array} 
+\right]
+\implies
+\begin{array}{cc|c}
+x=\frac{1}{7} \\
+y=\frac{10}{7}
+\end{array} 
+$$
+
+::: {.callout-note icon=true}
+El orden sugerido para resolver por Gauss-Jordan es: $a_{11}, a_{21}, a_{22}$ y por último $a_{12}$
+:::
+
+
+## Ejemplo 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Método de sustitución
+
+El método de sustitución consiste en despejar alguna de las incógnitas en cualquiera de las ecuaciones y sustituir en alguna de las otras hasta obtener el valor de todas las incógnitas. Utilizando el sistema de ecuaciones previo, podemos despejar $x$ en la ecuación A y posteriormente sustituir ese valor en la ecuación B
+
+$$
+\begin{align}
+x+y &= 5 \tag{A} \\
+x &= 5-y \\
+x-y &= 1 \tag{B} \\
+(5-y) -y &= 1 \\
+-2y &=1-5 \\
+y&=\frac{-4}{-2}=2 \\
+x+y &= 5 \tag{A} \\
+x+2 &=5 \\
+x&=5-2=3 \\
+\mathbf{x} &= \mathbf{3}; \mathbf{y} = \mathbf{2} \tag{Solución}\\
+\end{align}
+$$
+
+### Ejercicios
+
+Los siguientes ejercicios fueron resueltos durante la clase.
+
+1.)
+
+$$
+\displaystyle
+\begin{align}
+Q_d &= 100 -2P \\
+Q_s &= 20+3P
+\end{align}
+$$
+
+2.) $$
+\displaystyle
+\begin{align}
+Q_d &= 500 -5P \\
+Q_s &= 100+10P
+\end{align}
+$$
+
+3.) 
+$$
+\displaystyle
+\begin{align}
+Q_d &= 800 -\frac{3P}{2} \\
+Q_s &= 20+2P
+\end{align}
+$$ 
+4.) 
+$$
+\displaystyle
+\begin{align}
+x+y+z &= 6 \\
+2x-y+3z &= 14 \\
+-3x+4y+z &= -2
+\end{align}
+$$
