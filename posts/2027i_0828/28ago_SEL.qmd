@@ -7,7 +7,6 @@ categories: [Apunte de clase, 2027-I]
 
 ```{r librerias, include = FALSE}
 library(highcharter)
-library(webexercises)
 ```
 
 # Ecuaciones
@@ -178,6 +177,20 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 \end{bmatrix}
 $$
 
+::: {.callout-note icon=true}
+### Dimensión de una matriz
+
+Una matriz $m$x$n$ se dice que es de orden o tamaño $m$x$n$ donde:
+
+-   $m$ indica el **número de filas**.
+-   $n$ indica el **número de columnas**.
+
+Cuando $m=n$ la matriz es **cuadrada**.
+
+Cuando $m \neq n$ la matriz es **rectangular**.
+
+:::
+
 ## Ejemplo 1
 
 Un sistema de ecuaciones se puede expresar en su forma matricial de la siguiente manera:
@@ -188,12 +201,14 @@ $$
 -2x+3y &= 4\\
 \end{aligned}
 \implies
+\underbrace{
 \left[ 
 \begin{array}{cc|c}
 3 & 6 & 9 \\
 -2 & 3 & 4
 \end{array} 
-\right]
+\right]}
+_{\text{A}}
 $$
 
 Para conocer la solución al sistema, podemos empezar por calcular el determinante, en este caso está dado por:
@@ -211,9 +226,12 @@ Para encontrar la solución del sistema existen diferentes métodos, para este e
 
 $$
 A = 
-\begin{bmatrix}
-1 & 0 \\
-0 & 1 \end{bmatrix}
+\left[
+\begin{array}{cc|c}
+1 & 0 & x_1 \\
+0 & 1 & x_2
+\end{array}
+\right]
 $$
 
 Para hacerlo, se pueden realizar las siguientes operaciones en las filas:
@@ -319,77 +337,606 @@ El orden sugerido para resolver por Gauss-Jordan es: $a_{11}, a_{21}, a_{22}$ y 
 
 ## Ejemplo 2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Método de sustitución
-
-El método de sustitución consiste en despejar alguna de las incógnitas en cualquiera de las ecuaciones y sustituir en alguna de las otras hasta obtener el valor de todas las incógnitas. Utilizando el sistema de ecuaciones previo, podemos despejar $x$ en la ecuación A y posteriormente sustituir ese valor en la ecuación B
+Dado el siguiente sistema de ecuaciones:
 
 $$
-\begin{align}
-x+y &= 5 \tag{A} \\
-x &= 5-y \\
-x-y &= 1 \tag{B} \\
-(5-y) -y &= 1 \\
--2y &=1-5 \\
-y&=\frac{-4}{-2}=2 \\
-x+y &= 5 \tag{A} \\
-x+2 &=5 \\
-x&=5-2=3 \\
-\mathbf{x} &= \mathbf{3}; \mathbf{y} = \mathbf{2} \tag{Solución}\\
-\end{align}
+\begin{aligned}
+3x+6y &= 9 \\
+2x+4y &= 6\\
+\end{aligned}
+\implies
+\underbrace{
+\left[ 
+\begin{array}{cc|c}
+3 & 6 & 9 \\
+2 & 4 & 6
+\end{array} 
+\right]}
+_{\text{B}}
 $$
 
-### Ejercicios
-
-Los siguientes ejercicios fueron resueltos durante la clase.
-
-1.)
+Antes de intentar resolver el sistema, calculamos el determinante para conocer si tiene o no solución:
 
 $$
-\displaystyle
-\begin{align}
-Q_d &= 100 -2P \\
-Q_s &= 20+3P
-\end{align}
+\begin{aligned}
+|B| &=3\cdot4-(2\cdot6)=12-12=0
+\end{aligned}
 $$
 
-2.) $$
-\displaystyle
-\begin{align}
-Q_d &= 500 -5P \\
-Q_s &= 100+10P
-\end{align}
+En este caso, dado que $|B|=0$ podemos afirmar que **el sistema no tiene solución o tiene soluciones infinitas**, por lo que no tiene sentido intentar resolverlo. 
+
+¿Por qué sucede esto? A modo de ejemplo, probemos multiplicando las filas de nuestro sistema por un escalar: 
+
+$$
+\left[
+\begin{array}{cc|c}
+3 & 6 & 9 \\
+2 & 4 & 6
+\end{array}
+\right]
+\;\;\xrightarrow{F_1=\tfrac{1}{3}F_1}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 2 & 3 \\
+2 & 4 & 6
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=\tfrac{1}{2}F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 2 & 3 \\
+1 & 2 & 3
+\end{array}
+\right]
 $$
 
-3.) 
+Como pueden ver, ambas ecuaciones son la misma, por lo que **gráficamente describen la misma recta**. La única diferencia entre las dos ecuaciones es que, en el sistema original, cada una estaba multiplicada por un escalar distinto.
+
+```{r graf_ej02, echo=FALSE}
+# Rango de x
+x_val <- seq(-5, 5, 0.5)
+
+# Ecuaciones
+y1 <- 3/2 - x_val/2
+
+
+
+# Gráfica
+df1 <- data.frame(x = x_val, y = y1)
+
+highchart() %>%
+  hc_add_series(df1, "line", hcaes(x = x, y = y), name = "3x + 6y = 9", color = "blue") %>%
+  hc_add_series(df1, "line", hcaes(x = x, y = y), name = "2x + 4y = 6", color = "red") %>%
+  
+  hc_legend(enabled = TRUE) %>% 
+  hc_xAxis(title = list(text = "x")) %>%
+  hc_yAxis(title = list(text = "y")) %>%
+  hc_tooltip(shared = TRUE)
+```
+
+## Ejemplo 3
+
+Ahora utilizaremos un ejemplo de la economía, un sistema compuesto por **ecuaciones de oferta y demanda**.
+
 $$
-\displaystyle
-\begin{align}
-Q_d &= 800 -\frac{3P}{2} \\
-Q_s &= 20+2P
-\end{align}
+\begin{aligned}
+10P+Q_D &= 300 \\
+Q_S+200 &= 10P\\
+\end{aligned}
+\implies
+\begin{aligned}
+Q_D+10P &= 300 \\
+Q_S-10P &= -200\\
+\end{aligned}
+\implies
+\underbrace{
+\left[ 
+\begin{array}{cc|c}
+1 & 10 & 300 \\
+1 & -10 & -200
+\end{array} 
+\right]}
+_{\text{C}}
+$$
+
+::: {.callout-note icon=true}
+Noten que tanto $Q_D$ como $Q_S$ se manejan como una misma variable $Q$. Esto es porque, en este caso, los subíndices D y S únicamente describen el origen de las cantidades (demanda y oferta, respectivamente).
+:::
+
+Como primer paso, **verificamos que el sistema tenga solución única**.
+
+$$
+\begin{aligned}
+|C| &=1\cdot -10-(1 \cdot 10)=-10-10=-20
+\end{aligned}
+$$
+
+Dado que $|C| \neq 0$ el sistema tiene solución única. Ahora procedemos a resolver.
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 10 & 300 \\
+1 & -10 & -200
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=F_2-F_1}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 10 & 300 \\
+0 & -20 & -500
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 10 & 300 \\
+0 & -20 & -500
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=-\tfrac{1}{20}F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 10 & 300 \\
+0 & 1 & 25
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 10 & 300 \\
+0 & 1 & 25
+\end{array}
+\right]
+\;\;\xrightarrow{F_1=F_1-10F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 0 & 50 \\
+0 & 1 & 25
+\end{array}
+\right]
+$$
+
+**Solución** 
+
 $$ 
-4.) 
+\left[ 
+\begin{array}{cc|c}
+1 & 0 & 50 \\
+0 & 1 & 25
+\end{array} 
+\right]
+\implies
+\begin{array}{cc|c}
+Q=50 \\
+P=25
+\end{array} 
 $$
-\displaystyle
-\begin{align}
-x+y+z &= 6 \\
-2x-y+3z &= 14 \\
--3x+4y+z &= -2
-\end{align}
+
+# Ejercicios en clase
+
+Para los siguientes sistemas de ecuaciones:
+
+* Calcula el determinante
+* Resuelve los sistemas mediante el método de Gauss-Jordan.
+
+## 1)
+
 $$
+\begin{aligned}
+\alpha+\beta &= 4 \\
+\alpha-\beta &= 2\\
+\end{aligned}
+\implies
+\underbrace{
+\left[ 
+\begin{array}{cc|c}
+1 & 1 & 4 \\
+1 & -1 & 2
+\end{array} 
+\right]}
+_{\text{A}}
+$$
+
+Para conocer la solución al sistema, calculamos el determinante:
+
+$$
+\begin{aligned}
+|A| &= 1 \cdot -1 - (1 \cdot 1) \\
+|A| &= -1-1=-2
+\end{aligned}
+$$
+
+En este caso $|A| \neq 0$, por lo que podemos concluir que **el sistema tiene solución única**. 
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 4 \\
+1 & -1 & 2
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=F_2-F_1}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 1 & 4 \\
+0 & -2 & -2
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 4 \\
+0 & -2 & -2
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=-\tfrac{1}{2}F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 1 & 4 \\
+0 & 1 & 1
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 4 \\
+0 & 1 & 1
+\end{array}
+\right]
+\;\;\xrightarrow{F_1=F_1-F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 0 & 3 \\
+0 & 1 & 1
+\end{array}
+\right]
+$$
+
+**Solución** 
+
+$$ 
+\left[ 
+\begin{array}{cc|c}
+1 & 0 & 3 \\
+0 & 1 & 1
+\end{array} 
+\right]
+\implies
+\begin{array}{cc|c}
+\alpha=3 \\
+\beta=1
+\end{array} 
+$$
+
+## 2)
+
+$$
+\begin{aligned}
+x+y-5 &= 0 \\
+x-1 &= y\\
+\end{aligned}
+\implies
+\begin{aligned}
+x+y &= 5 \\
+x-y &= 1\\
+\end{aligned}
+\implies
+\underbrace{
+\left[ 
+\begin{array}{cc|c}
+1 & 1 & 5 \\
+1 & -1 & 1
+\end{array} 
+\right]}
+_{\text{A}}
+$$
+
+Calculamos el determinante:
+
+$$
+\begin{aligned}
+|A| &= 1 \cdot -1 - (1 \cdot 1) \\
+|A| &= -1-1=-2
+\end{aligned}
+$$
+
+Dado que $|A| \neq 0$ el sistema tiene solución única.
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 5 \\
+1 & -1 & 1
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=F_2-F_1}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 1 & 5 \\
+0 & -2 & -4
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 5 \\
+0 & -2 & -4
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=-\tfrac{1}{2}F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 1 & 5 \\
+0 & 1 & 2
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 5 \\
+0 & 1 & 2
+\end{array}
+\right]
+\;\;\xrightarrow{F_1=F_1-F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 0 & 3 \\
+0 & 1 & 2
+\end{array}
+\right]
+$$
+
+**Solución** 
+
+$$ 
+\left[ 
+\begin{array}{cc|c}
+1 & 0 & 3 \\
+0 & 1 & 2
+\end{array} 
+\right]
+\implies
+\begin{array}{cc|c}
+x=3 \\
+y=2
+\end{array} 
+$$
+
+## 3)
+
+$$
+\begin{aligned}
+2Q_D+3P-100 &= 0 \\
+Q_S &= 2P-55\\
+\end{aligned}
+\implies
+\begin{aligned}
+2Q+3P &= 100 \\
+Q-2P &= -55\\
+\end{aligned}
+\implies
+\underbrace{
+\left[ 
+\begin{array}{cc|c}
+2 & 3 & 100 \\
+1 & -2 & -55
+\end{array} 
+\right]}
+_{\text{A}}
+$$
+
+Calculamos el determinante:
+
+$$
+\begin{aligned}
+|A| &= 2 \cdot -2 - (3 \cdot 1) \\
+|A| &= -4-3=-7
+\end{aligned}
+$$
+
+Dado que $|A| \neq 0$ el sistema tiene solución única. En este caso, resulta útil intercambiar las filas 1 y 2 para tener un 1 en la posición $a_{11}$:
+
+$$
+\left[
+\begin{array}{cc|c}
+2 & 3 & 100 \\
+1 & -2 & -55
+\end{array}
+\right]
+\;\;\xrightarrow{F_1 \leftrightarrow F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & -2 & -55 \\
+2 & 3 & 100
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & -2 & -55 \\
+2 & 3 & 100
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=F_2-2F_1}\;\;
+\left[
+\begin{array}{cc|c}
+1 & -2 & -55 \\
+0 & 7 & 210
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & -2 & -55 \\
+0 & 7 & 210
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=\tfrac{1}{7}F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & -2 & -55 \\
+0 & 1 & 30
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & -2 & -55 \\
+0 & 1 & 30
+\end{array}
+\right]
+\;\;\xrightarrow{F_1=F_1+2F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 0 & 5 \\
+0 & 1 & 30
+\end{array}
+\right]
+$$
+
+**Solución** 
+
+$$ 
+\left[ 
+\begin{array}{cc|c}
+1 & 0 & 5 \\
+0 & 1 & 30
+\end{array} 
+\right]
+\implies
+\begin{array}{cc|c}
+Q=5 \\
+P=30
+\end{array} 
+$$
+
+## 4)
+
+$$
+\underbrace{
+\left[ 
+\begin{array}{cc|c}
+1 & 1 & \frac{3}{4} \\
+2 & 7 & 4
+\end{array} 
+\right]}
+_{\text{A}}
+$$
+
+Calculamos el determinante:
+
+$$
+\begin{aligned}
+|A| &= 1 \cdot 7 - (1 \cdot 2) \\
+|A| &= 7-2=5
+\end{aligned}
+$$
+
+Dado que $|A| \neq 0$ el sistema tiene solución única.
+
+$$
+\left[ 
+\begin{array}{cc|c}
+1 & 1 & \frac{3}{4} \\
+2 & 7 & 4
+\end{array} 
+\right]
+\;\;\xrightarrow{F_2=F_2-2F_1}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 1 & \frac{3}{4} \\
+0 & 5 & \frac{5}{2}
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & \frac{3}{4} \\
+0 & 5 & \frac{5}{2}
+\end{array}
+\right]
+\;\;\xrightarrow{F_2=\tfrac{1}{5}F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 1 & \frac{3}{4} \\
+0 & 1 & \frac{1}{2}
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & \frac{3}{4} \\
+0 & 1 & \frac{1}{2}
+\end{array}
+\right]
+\;\;\xrightarrow{F_1=F_1-F_2}\;\;
+\left[
+\begin{array}{cc|c}
+1 & 0 & \frac{1}{4} \\
+0 & 1 & \frac{1}{2}
+\end{array}
+\right]
+$$
+
+**Solución** 
+
+$$ 
+\left[ 
+\begin{array}{cc|c}
+1 & 0 & \frac{1}{4} \\
+0 & 1 & \frac{1}{2}
+\end{array} 
+\right]
+\implies
+\begin{array}{cc|c}
+x=\frac{1}{4} \\
+y=\frac{1}{2}
+\end{array} 
+$$
+
+## 5)
+
+$$
+\underbrace{
+\left[ 
+\begin{array}{cc|c}
+5 & 7 & 35 \\
+-10 & -14 & -70
+\end{array} 
+\right]}
+_{\text{A}}
+$$
+
+Calculamos el determinante para conocer si tiene solución:
+
+$$
+\begin{aligned}
+|A| &= 5 \cdot -14 - (7 \cdot -10) \\
+|A| &= -70 - (-70) = -70+70 = 0
+\end{aligned}
+$$
+
+En este caso, dado que $|A|=0$ podemos afirmar que **el sistema no tiene solución o tiene soluciones infinitas**, por lo que no tiene sentido intentar resolverlo mediante el método de Gauss-Jordan.

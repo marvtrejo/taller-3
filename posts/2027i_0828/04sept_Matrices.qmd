@@ -1,0 +1,1007 @@
+---
+title: "Clase 02: Operaciones con matrices"
+author: "Eduardo Castro; Marvin Trejo"
+date: "2026-09-04"
+categories: [Apunte de clase, 2027-I]
+---
+
+Existen distintas operaciones que pueden realizarse con matrices, a continuación les presentamos las más representativas.
+
+# Operaciones con escalares
+
+Sea $A$ una matrix de $m$x$n$ y $\alpha$ un escalar:
+
+1)  $\alpha A$
+
+2)  $1A=A$
+
+3)  $A + \varnothing = A$
+
+$$
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
++ 
+\begin{bmatrix}
+0 & 0 \\
+0 & 0
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
+$$
+
+4)  $\varnothing A = \varnothing$
+
+$$
+\varnothing
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
+= 
+\begin{bmatrix}
+0 & 0 \\
+0 & 0
+\end{bmatrix}
+$$
+
+# Suma
+
+Dos matrices A y B se pueden sumar **si y solo si** tienen el mismo tamaño. La suma se realiza elemento por elemento, es decir:
+
+$$
+\begin{bmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{bmatrix}
++ 
+\begin{bmatrix}
+b_{11} & b_{12} \\
+b_{21} & b_{22}
+\end{bmatrix}
+=
+\begin{bmatrix}
+a_{11}+b_{11} & a_{12}+b_{12} \\
+a_{21}+b_{21} & a_{22}+b_{22}
+\end{bmatrix}
+$$
+
+## Propiedades de la suma
+
+Para la suma de matrices podemos utilizar las siguientes propiedades.
+
+1)  Propiedad conmutativa: $A+B=B+A$
+
+$$
+A+B=
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
++ 
+\begin{bmatrix}
+3 & -1 \\
+2 & -4
+\end{bmatrix}
+=
+\begin{bmatrix}
+4 & 2 \\
+6 & -2
+\end{bmatrix}
+$$
+
+$$
+B+A=
+\begin{bmatrix}
+3 & -1 \\
+2 & -4
+\end{bmatrix}
++
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
+=
+\begin{bmatrix}
+4 & 2 \\
+6 & -2
+\end{bmatrix}
+$$
+
+2)  Propiedad asociativa: $(A+B)+C=A+(B+C)$.
+
+$$
+(A+B)+C=
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
++
+\begin{bmatrix}
+3 & -1 \\
+2 & -4
+\end{bmatrix}
++
+\begin{bmatrix}
+1 & 2 \\
+-3 & -2
+\end{bmatrix}
+=
+\begin{bmatrix}
+4 & 2 \\
+6 & -2
+\end{bmatrix}
++
+\begin{bmatrix}
+1 & 2 \\
+-3 & -2
+\end{bmatrix}
+=
+\begin{bmatrix}
+5 & 4 \\
+3 & -4
+\end{bmatrix}
+$$
+
+$$
+A+(B+C)=
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
++
+\begin{bmatrix}
+3 & -1 \\
+2 & -4
+\end{bmatrix}
++
+\begin{bmatrix}
+1 & 2 \\
+-3 & -2
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
++
+\begin{bmatrix}
+4 & 1 \\
+-1 & -6
+\end{bmatrix}
+=
+\begin{bmatrix}
+5 & 4 \\
+3 & -4
+\end{bmatrix}
+$$
+
+
+3)  Propiedad distributiva: $\alpha(A+B)=\alpha A + \alpha B$.
+
+$$
+2(A+B)=
+2
+\begin{bmatrix}
+1 & 3 \\
+4 & 2
+\end{bmatrix}
++ 
+2
+\begin{bmatrix}
+3 & -1 \\
+2 & -4
+\end{bmatrix}
+=
+\begin{bmatrix}
+2 & 6 \\
+8 & 4
+\end{bmatrix}
++
+\begin{bmatrix}
+6 & -2 \\
+4 & -8
+\end{bmatrix}
+=
+\begin{bmatrix}
+8 & 4 \\
+12 & -4
+\end{bmatrix}
+$$
+
+
+# Multiplicación
+
+Dos matrices, $A_{mn}$ y $B_{ij}$ se pueden multiplicar **si y solo si** $n=i$, es decir, el número de columnas de A es igual al número de filas de B. Por ejemplo
+
+
+$$
+A = 
+\underbrace{
+\begin{bmatrix}
+1 & 8 & 0 \\
+-3 & 2 & 5 
+\end{bmatrix}}
+_{2x3}
+; \quad
+B=
+\underbrace{
+\begin{bmatrix}
+9 & 0 \\
+-6 & 2 \\
+8 & 4
+\end{bmatrix}}
+_{3x2}
+$$
+
+-   Fila 1 por columna 1
+
+$$
+\begin{pmatrix}
+1 & 8 & 0 
+\end{pmatrix}
+\begin{pmatrix}
+9 \\
+-6 \\
+8 
+\end{pmatrix}
+=
+9-48+0=-39
+$$
+
+-   Fila 1 por columna 2
+
+$$
+\begin{pmatrix}
+1 & 8 & 0 
+\end{pmatrix}
+\begin{pmatrix}
+0 \\
+2 \\
+4 
+\end{pmatrix}
+=
+0+16+0=16
+$$
+
+-   Fila 2 por columna 1
+
+$$
+\begin{pmatrix}
+-3 & 2 & 5 
+\end{pmatrix}
+\begin{pmatrix}
+9 \\
+-6 \\
+8 
+\end{pmatrix}
+=
+-27-12+40=1
+$$
+
+-   Fila 2 por columna 2
+
+$$
+\begin{pmatrix}
+-3 & 2 & 5 
+\end{pmatrix}
+\begin{pmatrix}
+0 \\
+2 \\
+4 
+\end{pmatrix}
+=
+0+4+20=24
+$$
+
+Como resultado de multiplicar las matrices A y B tenemos:
+
+$$
+C=
+\begin{bmatrix}
+-39 & 16 \\
+1 & 24 
+\end{bmatrix}
+$$
+
+## Propiedades de la multiplicación
+
+1)  Propiedad distributiva: $A(B+C)=AB+AC$
+2)  Propiedad asociativa: $A(BC)=(AB)C$
+
+# Ejercicios en clase
+
+$$
+A =
+\begin{bmatrix}
+4 & 6 \\
+8 & 2 
+\end{bmatrix}
+\qquad
+B=
+\begin{bmatrix}
+-3 & 9 \\
+5 & -7 
+\end{bmatrix}
+\qquad
+C=
+\begin{bmatrix}
+-9 & 1 & 3 \\
+0 & 4 & -8 
+\end{bmatrix}
+$$
+
+$$
+D=
+\begin{bmatrix}
+7 & 4 \\
+6 & -1 \\
+-5 & 2
+\end{bmatrix}
+\qquad
+E=
+\begin{bmatrix}
+1 & 7 & -8 \\
+4 & 9 & -7 \\
+2 & 0 & 3
+\end{bmatrix}
+$$
+
+Con base en las matrices previas, desarrolla los siguientes ejercicios:
+
+
+## 1)  $A+B$
+
+$$
+\begin{bmatrix}
+4 & 6 \\
+8 & 2
+\end{bmatrix}
++ 
+\begin{bmatrix}
+-3 & 9 \\
+5 & -7
+\end{bmatrix}
+=
+\begin{bmatrix}
+4-3 & 6+9 \\
+8+5 & 2-7
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & 15 \\
+13 & -5
+\end{bmatrix}
+$$
+
+## 2)  $2D-4C$
+
+Para este ejercicio comprobamos el tamaño de cada matriz.
+
+$$
+D = 
+\underbrace{
+\begin{bmatrix}
+7 & 4 \\
+6 & -1 \\
+-5 & 2
+\end{bmatrix}}
+_{3x2}
+; \quad
+C = 
+\underbrace{
+\begin{bmatrix}
+-9 & 1 & 3 \\
+0 & 4 & -8 
+\end{bmatrix}}
+_{2x3}
+$$
+
+Dado que las matrices no tienen el mismo tamaño, **por propiedad de la suma, la operación no se puede realizar.**
+
+## 3)  $\frac{1}{2}A+4B$
+
+$$
+\frac{1}{2}
+\begin{bmatrix}
+4 & 6 \\
+8 & 2
+\end{bmatrix}
++ 
+4
+\begin{bmatrix}
+-3 & 9 \\
+5 & -7
+\end{bmatrix}
+=
+\begin{bmatrix}
+2 & 3 \\
+4 & 1
+\end{bmatrix}
++
+\begin{bmatrix}
+-12 & 36 \\
+20 & -28
+\end{bmatrix}
+=
+\begin{bmatrix}
+-10 & 39 \\
+24 & -27
+\end{bmatrix}
+$$
+
+## 4)  $-B \cdot C$
+
+* Comprobamos el tamaño de cada matriz.
+
+$$
+B = 
+\underbrace{
+\begin{bmatrix}
+-3 & 9 \\
+5 & -7 
+\end{bmatrix}}
+_{2x2}
+; \quad
+C = 
+\underbrace{
+\begin{bmatrix}
+-9 & 1 & 3 \\
+0 & 4 & -8 
+\end{bmatrix}}
+_{2x3}
+$$
+
+Dado que el número de columnas de $B$ es igual al número de filas de $C$, la operación se puede realizar y la matriz resultante tendrá un tamaño de $2 \times 3$.
+
+* Primero multiplicamos por el escalar. 
+  
+$$
+-B = -
+\begin{bmatrix}
+-3 & 9 \\
+5 & -7
+\end{bmatrix}
+=
+\begin{bmatrix}
+3 & -9 \\
+-5 & 7
+\end{bmatrix}
+$$
+
+* Posteriormente procedemos con la multiplicación de matrices.
+
+-   Fila 1 por columna 1
+
+$$
+\begin{pmatrix}
+3 & -9  
+\end{pmatrix}
+\begin{pmatrix}
+-9 \\
+0 
+\end{pmatrix}
+=
+-27-0=-27
+$$
+
+-   Fila 1 por columna 2
+
+$$
+\begin{pmatrix}
+3 & -9  
+\end{pmatrix}
+\begin{pmatrix}
+1 \\
+4 
+\end{pmatrix}
+=
+3-36=-33
+$$
+
+-   Fila 1 por columna 3
+
+$$
+\begin{pmatrix}
+3 & -9  
+\end{pmatrix}
+\begin{pmatrix}
+3 \\
+-8 
+\end{pmatrix}
+=
+9+72=81
+$$
+
+-   Fila 2 por columna 1
+
+$$
+\begin{pmatrix}
+-5 & 7 
+\end{pmatrix}
+\begin{pmatrix}
+-9 \\
+0 
+\end{pmatrix}
+=
+45+0=45
+$$
+
+-   Fila 2 por columna 2
+
+$$
+\begin{pmatrix}
+-5 & 7 
+\end{pmatrix}
+\begin{pmatrix}
+1 \\
+4 
+\end{pmatrix}
+=
+-5+28=23
+$$
+
+-   Fila 2 por columna 3
+
+$$
+\begin{pmatrix}
+-5 & 7 
+\end{pmatrix}
+\begin{pmatrix}
+3 \\
+-8 
+\end{pmatrix}
+=
+-15-56=-71
+$$
+
+Como resultado de la multiplicación tenemos:
+
+$$
+\begin{bmatrix}
+-27 & -33 & 81 \\
+45 & 23 & -71 
+\end{bmatrix}
+$$
+
+## 5)  $-3CD-B$
+
+* Para este ejercicio, lo primero es comprobar si podemos realizar la multiplicación de matrices $CD$.
+
+$$
+C = 
+\underbrace{
+\begin{bmatrix}
+-9 & 1 & 3 \\
+0 & 4 & -8 
+\end{bmatrix}}
+_{2x3}
+; \quad
+D=
+\underbrace{
+\begin{bmatrix}
+7 & 4 \\
+6 & -1 \\
+-5 & 2
+\end{bmatrix}}
+_{3x2}
+$$
+
+Dado que el número de columnas de $C$ es igual al número de filas de $D$, la operación se puede realizar y la matriz resultante tendrá un tamaño de $2 \times 2$.
+
+* Procedemos a realizar la multiplicación de matrices.
+
+-   Fila 1 por columna 1
+
+$$
+\begin{pmatrix}
+-9 & 1 & 3
+\end{pmatrix}
+\begin{pmatrix}
+7 \\
+6 \\
+-5
+\end{pmatrix}
+=
+-63+6-15=-72
+$$
+
+-   Fila 1 por columna 2
+
+$$
+\begin{pmatrix}
+-9 & 1 & 3
+\end{pmatrix}
+\begin{pmatrix}
+4 \\
+-1 \\
+2
+\end{pmatrix}
+=
+-36-1+6=-31
+$$
+
+-   Fila 2 por columna 1
+
+$$
+\begin{pmatrix}
+0 & 4 & -8
+\end{pmatrix}
+\begin{pmatrix}
+7 \\
+6 \\
+-5
+\end{pmatrix}
+=
+0+24+40=64
+$$
+
+-   Fila 2 por columna 2
+
+$$
+\begin{pmatrix}
+0 & 4 & -8
+\end{pmatrix}
+\begin{pmatrix}
+4 \\
+-1 \\
+2
+\end{pmatrix}
+=
+0-4-16=-20
+$$
+
+La matriz resultante $CD$ es:
+
+$$
+CD = 
+\begin{bmatrix}
+-72 & -31 \\
+64 & -20
+\end{bmatrix}
+$$
+
+* A continuación, multiplicamos por el escalar.
+
+$$
+-3CD = -3
+\begin{bmatrix}
+-72 & -31 \\
+64 & -20
+\end{bmatrix}
+=
+\begin{bmatrix}
+216 & 93 \\
+-192 & 60
+\end{bmatrix}
+$$
+
+* Finalmente restamos la matriz $B$. Dado que ambas son de $2 \times 2$, podemos hacerlo.
+
+$$
+-3CD - B =
+\begin{bmatrix}
+216 & 93 \\
+-192 & 60
+\end{bmatrix}
+-
+\begin{bmatrix}
+-3 & 9 \\
+5 & -7 
+\end{bmatrix}
+=
+\begin{bmatrix}
+216+3 & 93-9 \\
+-192-5 & 60+7 
+\end{bmatrix}
+=
+\begin{bmatrix}
+219 & 84 \\
+-197 & 67 
+\end{bmatrix}
+$$
+
+
+## 6)  $AC$
+
+* Comprobamos el tamaño de las matrices.
+
+$$
+A = 
+\underbrace{
+\begin{bmatrix}
+4 & 6 \\
+8 & 2
+\end{bmatrix}}
+_{2x2}
+; \quad
+C = 
+\underbrace{
+\begin{bmatrix}
+-9 & 1 & 3 \\
+0 & 4 & -8 
+\end{bmatrix}}
+_{2x3}
+$$
+
+Dado que el número de columnas de $A$ es igual al número de filas de $C$, la operación se puede realizar y la matriz resultante será de $2 \times 3$.
+
+* Procedemos con la multiplicación:
+
+-   Fila 1 por columna 1
+
+$$
+\begin{pmatrix}
+4 & 6 
+\end{pmatrix}
+\begin{pmatrix}
+-9 \\
+0 
+\end{pmatrix}
+=
+-36+0=-36
+$$
+
+-   Fila 1 por columna 2
+
+$$
+\begin{pmatrix}
+4 & 6 
+\end{pmatrix}
+\begin{pmatrix}
+1 \\
+4 
+\end{pmatrix}
+=
+4+24=28
+$$
+
+-   Fila 1 por columna 3
+
+$$
+\begin{pmatrix}
+4 & 6 
+\end{pmatrix}
+\begin{pmatrix}
+3 \\
+-8 
+\end{pmatrix}
+=
+12-48=-36
+$$
+
+-   Fila 2 por columna 1
+
+$$
+\begin{pmatrix}
+8 & 2 
+\end{pmatrix}
+\begin{pmatrix}
+-9 \\
+0 
+\end{pmatrix}
+=
+-72+0=-72
+$$
+
+-   Fila 2 por columna 2
+
+$$
+\begin{pmatrix}
+8 & 2 
+\end{pmatrix}
+\begin{pmatrix}
+1 \\
+4 
+\end{pmatrix}
+=
+8+8=16
+$$
+
+-   Fila 2 por columna 3
+
+$$
+\begin{pmatrix}
+8 & 2 
+\end{pmatrix}
+\begin{pmatrix}
+3 \\
+-8 
+\end{pmatrix}
+=
+24-16=8
+$$
+
+La matriz resultante es:
+$$
+\begin{bmatrix}
+-36 & 28 & -36 \\
+-72 & 16 & 8 
+\end{bmatrix}
+$$
+
+## 7)  $3(EC)$
+
+* Primero, revisamos si es posible multiplicar $EC$.
+
+$$
+E = 
+\underbrace{
+\begin{bmatrix}
+1 & 7 & -8 \\
+4 & 9 & -7 \\
+2 & 0 & 3
+\end{bmatrix}}
+_{3x3}
+; \quad
+C = 
+\underbrace{
+\begin{bmatrix}
+-9 & 1 & 3 \\
+0 & 4 & -8 
+\end{bmatrix}}
+_{2x3}
+$$
+
+Dado que el número de columnas de $E$ NO es igual al número de filas de $C$, **la multiplicación $EC$ no puede realizarse.**
+
+
+# Determinante 3x3
+
+En la clase previa calculamos el determinante para una matriz de $2 \times 2$. En el caso de las matrices de $3 \times 3$ podemos recurrir a dos métodos: **regla de Sarrus y cofactores**.
+
+::: {.callout-note icon=true}
+En esencia, el determinante de una matriz es un número real compuesto por la suma de **todas las combinaciones** de los elementos de una matriz, **en las cuales hay exactamente un elemento de cada fila y uno de cada columna**. 
+
+Tanto la regla de Sarrus como el método de cofactores siguen esta lógica.
+:::
+
+Utilicemos como ejemplo la matriz A:
+
+$$
+A = 
+\left[
+\begin{array}{ccc|c}
+4 & -3 & -1 & 0 \\
+7 & -4 & 3 & 6 \\
+1 & 5 & -2 & 4
+\end{array}
+\right]
+$$
+
+::: panel-tabset
+
+## Regla de Sarrus
+
+Este método consiste en combiar los elementos de la matriz mediante un patrón de triángulos opuestos.
+
+1) Primero identificamos la diagonal principal (verde) y a partir de ahí "dibujamos" dos triángulos con los elementos. Multiplicamos los elementos de cada grupo y sumamos.
+
+$$
+A = 
+\left[
+\begin{array}{ccc}
+{\color{#058789}{4}} & {\color{#d54b1a}{-3}} & {\color{#e3a72f}{-1}} \\
+{\color{#e3a72f}{7}} & {\color{#058789}{-4}} & {\color{#d54b1a}{3}} \\
+{\color{#d54b1a}{1}} & {\color{#e3a72f}{5}} & {\color{#058789}{-2}}
+\end{array}
+\right] 
+\implies
+\color{#058789}{(4 \cdot -4 \cdot -2)}+
+\color{#d54b1a}{(-3 \cdot 3 \cdot 1)}+
+\color{#e3a72f}{(-1 \cdot 7 \cdot 5)}
+$$
+
+2) Repetimos el proceso pero ahora a partir de la diagonal secundaria.
+
+$$
+B = 
+\left[
+\begin{array}{ccc}
+{\color{#213722}{4}} & {\color{#f8c662}{-3}} & {\color{#baaceb}{-1}} \\
+{\color{#f8c662}{7}} & {\color{#baaceb}{-4}} & {\color{#213722}{3}} \\
+{\color{#baaceb}{1}} & {\color{#213722}{5}} & {\color{#f8c662}{-2}}
+\end{array}
+\right]
+\implies
+\color{#baaceb}{(1 \cdot -4 \cdot -1)}+
+\color{#213722}{(4 \cdot 5 \cdot 3)}+
+\color{#f8c662}{(7 \cdot -3 \cdot -2)}
+$$
+
+3) Por último, al resultado del primer paso le restamos el resultado del segundo paso
+
+$$
+|A| = [(4 \cdot -4 \cdot -2)+(-3 \cdot 3 \cdot 1) + (-1 \cdot 7 \cdot 5)]-[(1 \cdot -4 \cdot -1)+(4 \cdot 5 \cdot 3) + (7 \cdot -3 \cdot -2)
+$$
+
+$$
+|A| =[32-9-35]-[4+60+42]
+$$
+
+$$
+|A|=-12-106=-118
+$$
+
+## Cofactores
+
+Este método consiste en seleccionar una fila o columna, a partir de la cual se construyen matrices de menor tamaño. En matrices de $3 \times 3$ se sugiere utilizar el siguiente orden:
+
+$$
+|A| = 
+a_{11} 
+\left|
+\begin{array}{cc}
+a_{22} & a_{23} \\
+a_{32} & a_{33}
+\end{array}
+\right|
+-
+a_{12}
+\left|
+\begin{array}{cc}
+a_{21} & a_{23} \\
+a_{31} & a_{33}
+\end{array}
+\right|
++
+a_{13}
+\left|
+\begin{array}{cc}
+a_{21} & a_{22} \\
+a_{31} & a_{32}
+\end{array}
+\right|
+$$
+
+En el caso de la matriz $A$
+
+
+$$
+|A| = 
+4 
+\left|
+\begin{array}{cc}
+-4 & 3 \\
+5 & -2
+\end{array}
+\right|
+-
+(-3)
+\left|
+\begin{array}{cc}
+7 & 3 \\
+1 & -2
+\end{array}
+\right|
++
+(-1)
+\left|
+\begin{array}{cc}
+7 & -4 \\
+1 & 5
+\end{array}
+\right|
+$$
+
+$$
+|A| = 4 [(-4 \cdot-2) - (5 \cdot 3)]-(-3) [(7 \cdot-2) - (1 \cdot 3)] + (-1)[(7 \cdot5) - (1 \cdot -4)]
+$$
+
+
+$$
+|A| = 4(-7)-(-3)(-17)+(-1)(39) = -28-51-39
+$$
+
+$$
+|A| = -118
+$$
+:::
+
+::: {.callout-note icon=true}
+La **regla de Sarrus** se puede utilizar **únicamente en matrices de $3 \times 3$**, mientras que el **método de cofactores** puede utilizarse en **matrices cuadradas de cualquier tamaño**.
+:::
