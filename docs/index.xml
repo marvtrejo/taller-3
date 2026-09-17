@@ -10,7 +10,788 @@
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 30 Oct 2025 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Tarea 01</title>
+  <dc:creator>Eduardo Castro; Marvin Trejo</dc:creator>
+  <link>https://your-website-url.example.com/posts/2027i_tarea01/2027i_tarea01.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="a" class="level1">
+<h1>A)</h1>
+<p>Partiendo de las siguientes funciones de oferta (<img src="https://latex.codecogs.com/png.latex?Q_S">) y demanda (<img src="https://latex.codecogs.com/png.latex?D">), determina el precio y cantidad de equilibrio por el <strong>método de Gauss-Jordan</strong>.</p>
+<section id="a.1" class="level2">
+<h2 class="anchored" data-anchor-id="a.1">A.1)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0AQ_D%20&amp;=%2030%20-4P%20%5C%5C%0AQ_S%20&amp;=%2011+3P%5C%5C%0A%5Cend%7Baligned%7D%0A"></p>
+</section>
+<section id="a.2" class="level2">
+<h2 class="anchored" data-anchor-id="a.2">A.2)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0AQ_D%20&amp;=%2035%20-5P%20%5C%5C%0AQ_S%20&amp;=%2014+4P%5C%5C%0A%5Cend%7Baligned%7D%0A"></p>
+</section>
+</section>
+<section id="b" class="level1">
+<h1>B)</h1>
+<p>Calcula el determinante de los siguientes sistemas de ecuaciones lineales y encuentra la solución por el <strong>método de Gauss-Jordan</strong>.</p>
+<section id="b.1" class="level2">
+<h2 class="anchored" data-anchor-id="b.1">B.1)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A2x+y-z&amp;=3%20%5C%5C%0Ax-y+2z&amp;=5%5C%5C%0A3x+2y&amp;=8-z%0A%5Cend%7Baligned%7D%0A"></p>
+</section>
+<section id="b.2" class="level2">
+<h2 class="anchored" data-anchor-id="b.2">B.2)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0Ax+y-z&amp;=2%20%5C%5C%0Ax-y+2z&amp;=0%5C%5C%0A-x+2y+10z&amp;=1%0A%5Cend%7Baligned%7D%0A"></p>
+</section>
+</section>
+<section id="c" class="level1">
+<h1>C)</h1>
+<p>Considera las siguientes matrices:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cbegin%7Bbmatrix%7D%0A2%20&amp;%205%20%5C%5C%0A-3%20&amp;%204%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AB=%0A%5Cbegin%7Bbmatrix%7D%0A-1%20&amp;%203%20%5C%5C%0A6%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AC=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%204%20&amp;%20-2%20%5C%5C%0A0%20&amp;%203%20&amp;%205%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AD=%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%204%20%5C%5C%0A0%20&amp;%205%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AE=%0A%5Cbegin%7Bbmatrix%7D%0A2%20&amp;%20-1%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-2%20%5C%5C%0A1%20&amp;%203%20&amp;%205%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<p>Realiza las siguientes operaciones con matrices</p>
+<section id="ab" class="level2">
+<h2 class="anchored" data-anchor-id="ab"><img src="https://latex.codecogs.com/png.latex?A+B"></h2>
+</section>
+<section id="a-2b" class="level2">
+<h2 class="anchored" data-anchor-id="a-2b"><img src="https://latex.codecogs.com/png.latex?3A-2B"></h2>
+</section>
+<section id="b-1" class="level2">
+<h2 class="anchored" data-anchor-id="b-1"><img src="https://latex.codecogs.com/png.latex?-4B"></h2>
+</section>
+<section id="cd" class="level2">
+<h2 class="anchored" data-anchor-id="cd"><img src="https://latex.codecogs.com/png.latex?CD"></h2>
+</section>
+<section id="dc" class="level2">
+<h2 class="anchored" data-anchor-id="dc"><img src="https://latex.codecogs.com/png.latex?DC"></h2>
+</section>
+</section>
+<section id="d" class="level1">
+<h1>D)</h1>
+<p>Calcula el determinante de E usando la regla de Sarrus.</p>
+</section>
+<section id="e" class="level1">
+<h1>E)</h1>
+<p>Calcula el determinante de E usando el método de cofactores.</p>
+</section>
+<section id="a-1" class="level1">
+<h1>A)</h1>
+<p>Partiendo de las siguientes funciones de oferta (<img src="https://latex.codecogs.com/png.latex?Q_S">) y demanda (<img src="https://latex.codecogs.com/png.latex?Q_D">), determina el precio y cantidad de equilibrio por el <strong>método de Gauss-Jordan</strong>.[cite: 3]</p>
+<section id="a.1-1" class="level2">
+<h2 class="anchored" data-anchor-id="a.1-1">A.1)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0AQ_D%20&amp;=%2030%20-4P%20%5C%5C%0AQ_S%20&amp;=%2011+3P%5C%5C%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Primero reacomodamos las variables:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0AQ+4P%20&amp;=%2030%20%5C%5C%0AQ-3P%20&amp;=%2011%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%204%20&amp;%2030%20%5C%5C%0A1%20&amp;%20-3%20&amp;%2011%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Verificamos que el sistema tenga solución única calculando el determinante:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%201%20%5Ccdot%20-3%20-%20(4%20%5Ccdot%201)%20%5C%5C%0A%7CA%7C%20&amp;=%20-3%20-%204%20=%20-7%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Dado que <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200"> el sistema tiene solución única. Procedemos a resolver:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%204%20&amp;%2030%20%5C%5C%0A1%20&amp;%20-3%20&amp;%2011%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%204%20&amp;%2030%20%5C%5C%0A0%20&amp;%20-7%20&amp;%20-19%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%204%20&amp;%2030%20%5C%5C%0A0%20&amp;%20-7%20&amp;%20-19%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=-%5Ctfrac%7B1%7D%7B7%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%204%20&amp;%2030%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B19%7D%7B7%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%204%20&amp;%2030%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B19%7D%7B7%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-4F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B134%7D%7B7%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B19%7D%7B7%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B134%7D%7B7%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B19%7D%7B7%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0AQ=%5Cfrac%7B134%7D%7B7%7D%20%5C%5C%0AP=%5Cfrac%7B19%7D%7B7%7D%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+<section id="a.2-1" class="level2">
+<h2 class="anchored" data-anchor-id="a.2-1">A.2)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0AQ_D%20&amp;=%2035%20-5P%20%5C%5C%0AQ_S%20&amp;=%2014+4P%5C%5C%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Acomodamos las variables (<img src="https://latex.codecogs.com/png.latex?Q%20=%20Q_D%20=%20Q_S">):</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0AQ+5P%20&amp;=%2035%20%5C%5C%0AQ-4P%20&amp;=%2014%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%205%20&amp;%2035%20%5C%5C%0A1%20&amp;%20-4%20&amp;%2014%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Calculamos el determinante:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%201%20%5Ccdot%20-4%20-%20(5%20%5Ccdot%201)%20%5C%5C%0A%7CA%7C%20&amp;=%20-4%20-%205%20=%20-9%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Dado que <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200"> el sistema tiene solución única.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%205%20&amp;%2035%20%5C%5C%0A1%20&amp;%20-4%20&amp;%2014%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%205%20&amp;%2035%20%5C%5C%0A0%20&amp;%20-9%20&amp;%20-21%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%205%20&amp;%2035%20%5C%5C%0A0%20&amp;%20-9%20&amp;%20-21%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=-%5Ctfrac%7B1%7D%7B9%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%205%20&amp;%2035%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B3%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%205%20&amp;%2035%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B3%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-5F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B70%7D%7B3%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B3%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B70%7D%7B3%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B3%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0AQ=%5Cfrac%7B70%7D%7B3%7D%20%5C%5C%0AP=%5Cfrac%7B7%7D%7B3%7D%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+</section>
+<section id="b-2" class="level1">
+<h1>B)</h1>
+<p>Calcula el determinante de los siguientes sistemas de ecuaciones lineales y encuentra la solución por el <strong>método de Gauss-Jordan</strong>.</p>
+<section id="b.1-1" class="level2">
+<h2 class="anchored" data-anchor-id="b.1-1">B.1)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A2x+y-z&amp;=3%20%5C%5C%0Ax-y+2z&amp;=5%5C%5C%0A3x+2y&amp;=8-z%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Primero, reacomodamos la tercera ecuación para alinear las variables:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A2x+y-z&amp;=3%20%5C%5C%0Ax-y+2z&amp;=5%5C%5C%0A3x+2y+z&amp;=8%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A2%20&amp;%201%20&amp;%20-1%20&amp;%203%20%5C%5C%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A3%20&amp;%202%20&amp;%201%20&amp;%208%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Calculamos el determinante de la matriz A:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%202(-1%20%5Ccdot%201%20-%202%20%5Ccdot%202)%20-%201(1%20%5Ccdot%201%20-%202%20%5Ccdot%203)%20+%20(-1)(1%20%5Ccdot%202%20-%20(-1)%20%5Ccdot%203)%20%5C%5C%0A%7CA%7C%20&amp;=%202(-1-4)%20-%201(1-6)%20-%201(2+3)%20%5C%5C%0A%7CA%7C%20&amp;=%202(-5)%20-%201(-5)%20-%201(5)%20%5C%5C%0A%7CA%7C%20&amp;=%20-10%20+%205%20-%205%20=%20-10%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Dado que <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200">, el sistema tiene solución única. Procedemos con Gauss-Jordan intercambiando <img src="https://latex.codecogs.com/png.latex?F_1"> y <img src="https://latex.codecogs.com/png.latex?F_2"> para facilitar los cálculos:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A2%20&amp;%201%20&amp;%20-1%20&amp;%203%20%5C%5C%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A3%20&amp;%202%20&amp;%201%20&amp;%208%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1%20%5Cleftrightarrow%20F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A2%20&amp;%201%20&amp;%20-1%20&amp;%203%20%5C%5C%0A3%20&amp;%202%20&amp;%201%20&amp;%208%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A2%20&amp;%201%20&amp;%20-1%20&amp;%203%20%5C%5C%0A3%20&amp;%202%20&amp;%201%20&amp;%208%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-2F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%203%20&amp;%20-5%20&amp;%20-7%20%5C%5C%0A3%20&amp;%202%20&amp;%201%20&amp;%208%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%203%20&amp;%20-5%20&amp;%20-7%20%5C%5C%0A3%20&amp;%202%20&amp;%201%20&amp;%208%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_3=F_3-3F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%203%20&amp;%20-5%20&amp;%20-7%20%5C%5C%0A0%20&amp;%205%20&amp;%20-5%20&amp;%20-7%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%203%20&amp;%20-5%20&amp;%20-7%20%5C%5C%0A0%20&amp;%205%20&amp;%20-5%20&amp;%20-7%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=%5Ctfrac%7B1%7D%7B3%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B5%7D%7B3%7D%20&amp;%20-%5Cfrac%7B7%7D%7B3%7D%20%5C%5C%0A0%20&amp;%205%20&amp;%20-5%20&amp;%20-7%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B5%7D%7B3%7D%20&amp;%20-%5Cfrac%7B7%7D%7B3%7D%20%5C%5C%0A0%20&amp;%205%20&amp;%20-5%20&amp;%20-7%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_3=F_3-5F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B5%7D%7B3%7D%20&amp;%20-%5Cfrac%7B7%7D%7B3%7D%20%5C%5C%0A0%20&amp;%200%20&amp;%20%5Cfrac%7B10%7D%7B3%7D%20&amp;%20%5Cfrac%7B14%7D%7B3%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B5%7D%7B3%7D%20&amp;%20-%5Cfrac%7B7%7D%7B3%7D%20%5C%5C%0A0%20&amp;%200%20&amp;%20%5Cfrac%7B10%7D%7B3%7D%20&amp;%20%5Cfrac%7B14%7D%7B3%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_3=%5Ctfrac%7B3%7D%7B10%7DF_3%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B5%7D%7B3%7D%20&amp;%20-%5Cfrac%7B7%7D%7B3%7D%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%20-1%20&amp;%202%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B5%7D%7B3%7D%20&amp;%20-%5Cfrac%7B7%7D%7B3%7D%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1+F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B3%7D%20&amp;%20%5Cfrac%7B8%7D%7B3%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B5%7D%7B3%7D%20&amp;%20-%5Cfrac%7B7%7D%7B3%7D%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B3%7D%20&amp;%20%5Cfrac%7B8%7D%7B3%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B5%7D%7B3%7D%20&amp;%20-%5Cfrac%7B7%7D%7B3%7D%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2+%5Ctfrac%7B5%7D%7B3%7DF_3%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B3%7D%20&amp;%20%5Cfrac%7B8%7D%7B3%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%200%20&amp;%200%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B3%7D%20&amp;%20%5Cfrac%7B8%7D%7B3%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%200%20&amp;%200%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-%5Ctfrac%7B1%7D%7B3%7DF_3%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%200%20&amp;%20%5Cfrac%7B11%7D%7B5%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%200%20&amp;%200%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%200%20&amp;%20%5Cfrac%7B11%7D%7B5%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%200%20&amp;%200%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%20%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0Ax=%5Cfrac%7B11%7D%7B5%7D%20%5C%5C%0Ay=0%20%5C%5C%0Az=%5Cfrac%7B7%7D%7B5%7D%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+<section id="b.2-1" class="level2">
+<h2 class="anchored" data-anchor-id="b.2-1">B.2)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0Ax+y-z&amp;=2%20%5C%5C%0Ax-y+2z&amp;=0%5C%5C%0A-x+2y+10z&amp;=1%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A1%20&amp;%20-1%20&amp;%202%20&amp;%200%20%5C%5C%0A-1%20&amp;%202%20&amp;%2010%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Calculamos el determinante:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%201(-1%20%5Ccdot%2010%20-%202%20%5Ccdot%202)%20-%201(1%20%5Ccdot%2010%20-%202%20%5Ccdot%20-1)%20+%20(-1)(1%20%5Ccdot%202%20-%20(-1)%20%5Ccdot%20-1)%20%5C%5C%0A%7CA%7C%20&amp;=%201(-10-4)%20-%201(10+2)%20-%201(2-1)%20%5C%5C%0A%7CA%7C%20&amp;=%201(-14)%20-%201(12)%20-%201(1)%20%5C%5C%0A%7CA%7C%20&amp;=%20-14%20-%2012%20-%201%20=%20-27%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Dado que <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200">, procedemos a resolver:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A1%20&amp;%20-1%20&amp;%202%20&amp;%200%20%5C%5C%0A-1%20&amp;%202%20&amp;%2010%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%20-2%20&amp;%203%20&amp;%20-2%20%5C%5C%0A-1%20&amp;%202%20&amp;%2010%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%20-2%20&amp;%203%20&amp;%20-2%20%5C%5C%0A-1%20&amp;%202%20&amp;%2010%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_3=F_3+F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%20-2%20&amp;%203%20&amp;%20-2%20%5C%5C%0A0%20&amp;%203%20&amp;%209%20&amp;%203%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%20-2%20&amp;%203%20&amp;%20-2%20%5C%5C%0A0%20&amp;%203%20&amp;%209%20&amp;%203%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=-%5Ctfrac%7B1%7D%7B2%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B3%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%203%20&amp;%209%20&amp;%203%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B3%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%203%20&amp;%209%20&amp;%203%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_3=F_3-3F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B3%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%20%5Cfrac%7B27%7D%7B2%7D%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B3%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%20%5Cfrac%7B27%7D%7B2%7D%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_3=%5Ctfrac%7B2%7D%7B27%7DF_3%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B3%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%201%20&amp;%20-1%20&amp;%202%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B3%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B3%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%201%20&amp;%20-%5Cfrac%7B3%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2+%5Ctfrac%7B3%7D%7B2%7DF_3%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%201%20&amp;%200%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B2%7D%20&amp;%201%20%5C%5C%0A0%20&amp;%201%20&amp;%200%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-%5Ctfrac%7B1%7D%7B2%7DF_3%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%200%20&amp;%201%20%5C%5C%0A0%20&amp;%201%20&amp;%200%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A1%20&amp;%200%20&amp;%200%20&amp;%201%20%5C%5C%0A0%20&amp;%201%20&amp;%200%20&amp;%201%20%5C%5C%0A0%20&amp;%200%20&amp;%201%20&amp;%200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0Ax=1%20%5C%5C%0Ay=1%20%5C%5C%0Az=0%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+</section>
+<section id="c-1" class="level1">
+<h1>C)</h1>
+<p>A partir de las siguientes matrices:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cbegin%7Bbmatrix%7D%0A2%20&amp;%205%20%5C%5C%0A-3%20&amp;%204%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AB=%0A%5Cbegin%7Bbmatrix%7D%0A-1%20&amp;%203%20%5C%5C%0A6%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AC=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%204%20&amp;%20-2%20%5C%5C%0A0%20&amp;%203%20&amp;%205%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AD=%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%204%20%5C%5C%0A0%20&amp;%205%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AE=%0A%5Cbegin%7Bbmatrix%7D%0A2%20&amp;%20-1%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-2%20%5C%5C%0A1%20&amp;%203%20&amp;%205%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<p>Resuelve:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href=""><img src="https://latex.codecogs.com/png.latex?A+B"></a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href=""><img src="https://latex.codecogs.com/png.latex?3A-2B"></a></li><li class="nav-item"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" aria-controls="tabset-1-3" aria-selected="false" href=""><img src="https://latex.codecogs.com/png.latex?-4B"></a></li><li class="nav-item"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" aria-controls="tabset-1-4" aria-selected="false" href=""><img src="https://latex.codecogs.com/png.latex?CD"></a></li><li class="nav-item"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" aria-controls="tabset-1-5" aria-selected="false" href=""><img src="https://latex.codecogs.com/png.latex?DC"></a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bbmatrix%7D%0A2%20&amp;%205%20%5C%5C%0A-3%20&amp;%204%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A-1%20&amp;%203%20%5C%5C%0A6%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A2-1%20&amp;%205+3%20%5C%5C%0A-3+6%20&amp;%204-2%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%208%20%5C%5C%0A3%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<p><img src="https://latex.codecogs.com/png.latex?%0A3%0A%5Cbegin%7Bbmatrix%7D%0A2%20&amp;%205%20%5C%5C%0A-3%20&amp;%204%0A%5Cend%7Bbmatrix%7D%0A-%0A2%0A%5Cbegin%7Bbmatrix%7D%0A-1%20&amp;%203%20%5C%5C%0A6%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A6%20&amp;%2015%20%5C%5C%0A-9%20&amp;%2012%0A%5Cend%7Bbmatrix%7D%0A-%0A%5Cbegin%7Bbmatrix%7D%0A-2%20&amp;%206%20%5C%5C%0A12%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A6%20-%20(-2)%20&amp;%2015-6%20%5C%5C%0A-9-12%20&amp;%2012%20-%20(-4)%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A8%20&amp;%209%20%5C%5C%0A-21%20&amp;%2016%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</div>
+<div id="tabset-1-3" class="tab-pane" aria-labelledby="tabset-1-3-tab">
+<p><img src="https://latex.codecogs.com/png.latex?%0A-4%0A%5Cbegin%7Bbmatrix%7D%0A-1%20&amp;%203%20%5C%5C%0A6%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A-4%20%5Ccdot%20-1%20&amp;%20-4%20%5Ccdot%203%20%5C%5C%0A-4%20%5Ccdot%206%20&amp;%20-4%20%5Ccdot%20-2%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%20-12%20%5C%5C%0A-24%20&amp;%208%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</div>
+<div id="tabset-1-4" class="tab-pane" aria-labelledby="tabset-1-4-tab">
+<p><img src="https://latex.codecogs.com/png.latex?%0AC%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%204%20&amp;%20-2%20%5C%5C%0A0%20&amp;%203%20&amp;%205%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x3%7D%0A;%20%5Cquad%0AD%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%204%20%5C%5C%0A0%20&amp;%205%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B3x2%7D%0A"></p>
+<p>La matriz resultante será <img src="https://latex.codecogs.com/png.latex?2%20%5Ctimes%202">.</p>
+<ul>
+<li>Fila 1 por columna 1</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A1%20&amp;%204%20&amp;%20-2%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A3%20%5C%5C%0A2%20%5C%5C%0A0%0A%5Cend%7Bpmatrix%7D%0A=%0A3+8+0=11%0A"></p>
+<ul>
+<li>Fila 1 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A1%20&amp;%204%20&amp;%20-2%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A-1%20%5C%5C%0A4%20%5C%5C%0A5%0A%5Cend%7Bpmatrix%7D%0A=%0A-1+16-10=5%0A"></p>
+<ul>
+<li>Fila 2 por columna 1</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A0%20&amp;%203%20&amp;%205%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A3%20%5C%5C%0A2%20%5C%5C%0A0%0A%5Cend%7Bpmatrix%7D%0A=%0A0+6+0=6%0A"></p>
+<ul>
+<li>Fila 2 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A0%20&amp;%203%20&amp;%205%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A-1%20%5C%5C%0A4%20%5C%5C%0A5%0A%5Cend%7Bpmatrix%7D%0A=%0A0+12+25=37%0A"></p>
+<p><strong>Resultado <img src="https://latex.codecogs.com/png.latex?CD">:</strong> <img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bbmatrix%7D%0A11%20&amp;%205%20%5C%5C%0A6%20&amp;%2037%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</div>
+<div id="tabset-1-5" class="tab-pane" aria-labelledby="tabset-1-5-tab">
+<p><img src="https://latex.codecogs.com/png.latex?%0AD%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%204%20%5C%5C%0A0%20&amp;%205%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B3x2%7D%0A;%20%5Cquad%0AC%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%204%20&amp;%20-2%20%5C%5C%0A0%20&amp;%203%20&amp;%205%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x3%7D%0A"></p>
+<p>La matriz resultante será <img src="https://latex.codecogs.com/png.latex?3%20%5Ctimes%203">.</p>
+<ul>
+<li><p>Fila 1 por columna 1: <img src="https://latex.codecogs.com/png.latex?(3%20%5Ccdot%201)%20+%20(-1%20%5Ccdot%200)%20=%203+0=3"></p></li>
+<li><p>Fila 1 por columna 2: <img src="https://latex.codecogs.com/png.latex?(3%20%5Ccdot%204)%20+%20(-1%20%5Ccdot%203)%20=%2012-3=9"></p></li>
+<li><p>Fila 1 por columna 3: <img src="https://latex.codecogs.com/png.latex?(3%20%5Ccdot%20-2)%20+%20(-1%20%5Ccdot%205)%20=%20-6-5=-11"></p></li>
+<li><p>Fila 2 por columna 1: <img src="https://latex.codecogs.com/png.latex?(2%20%5Ccdot%201)%20+%20(4%20%5Ccdot%200)%20=%202+0=2"></p></li>
+<li><p>Fila 2 por columna 2: <img src="https://latex.codecogs.com/png.latex?(2%20%5Ccdot%204)%20+%20(4%20%5Ccdot%203)%20=%208+12=20"></p></li>
+<li><p>Fila 2 por columna 3: <img src="https://latex.codecogs.com/png.latex?(2%20%5Ccdot%20-2)%20+%20(4%20%5Ccdot%205)%20=%20-4+20=16"></p></li>
+<li><p>Fila 3 por columna 1: <img src="https://latex.codecogs.com/png.latex?(0%20%5Ccdot%201)%20+%20(5%20%5Ccdot%200)%20=%200+0=0"></p></li>
+<li><p>Fila 3 por columna 2: <img src="https://latex.codecogs.com/png.latex?(0%20%5Ccdot%204)%20+%20(5%20%5Ccdot%203)%20=%200+15=15"></p></li>
+<li><p>Fila 3 por columna 3: <img src="https://latex.codecogs.com/png.latex?(0%20%5Ccdot%20-2)%20+%20(5%20%5Ccdot%205)%20=%200+25=25"></p></li>
+</ul>
+<p><strong>Resultado <img src="https://latex.codecogs.com/png.latex?DC">:</strong> <img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%209%20&amp;%20-11%20%5C%5C%0A2%20&amp;%2020%20&amp;%2016%20%5C%5C%0A0%20&amp;%2015%20&amp;%2025%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="d-1" class="level1">
+<h1>D)</h1>
+<p>Calcula el determinante de E usando la regla de Sarrus.[cite: 3]</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CE%7C%20=%0A%5Cbegin%7Bvmatrix%7D%0A2%20&amp;%20-1%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-2%20%5C%5C%0A1%20&amp;%203%20&amp;%205%0A%5Cend%7Bvmatrix%7D%0A%5Cbegin%7Barray%7D%7Bcc%7D%0A2%20&amp;%20-1%20%5C%5C%0A0%20&amp;%204%20%5C%5C%0A1%20&amp;%203%0A%5Cend%7Barray%7D%0A"></p>
+<p>Multiplicamos las diagonales principales y sumamos sus resultados:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%20(2%20%5Ccdot%204%20%5Ccdot%205)%20+%20(-1%20%5Ccdot%20-2%20%5Ccdot%201)%20+%20(3%20%5Ccdot%200%20%5Ccdot%203)%20=%2040%20+%202%20+%200%20=%2042%20"></p>
+<p>Multiplicamos las diagonales secundarias y restamos sus resultados: <img src="https://latex.codecogs.com/png.latex?%20-(3%20%5Ccdot%204%20%5Ccdot%201)%20-%20(2%20%5Ccdot%20-2%20%5Ccdot%203)%20-%20(-1%20%5Ccdot%200%20%5Ccdot%205)%20=%20-(12)%20-%20(-12)%20-%20(0)%20=%20-12%20+%2012%20-%200%20=%200%20"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%7CE%7C%20=%2042%20+%200%20=%2042"></p>
+</section>
+<section id="e-1" class="level1">
+<h1>E)</h1>
+<p>Calcula el determinante de E usando el método de cofactores.</p>
+<p>Desarrollamos el cálculo utilizando la primera fila de la matriz <img src="https://latex.codecogs.com/png.latex?E">:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CE%7C%20=%202%20%5Cbegin%7Bvmatrix%7D%204%20&amp;%20-2%20%5C%5C%203%20&amp;%205%20%5Cend%7Bvmatrix%7D%20-%20(-1)%20%5Cbegin%7Bvmatrix%7D%200%20&amp;%20-2%20%5C%5C%201%20&amp;%205%20%5Cend%7Bvmatrix%7D%20+%203%20%5Cbegin%7Bvmatrix%7D%200%20&amp;%204%20%5C%5C%201%20&amp;%203%20%5Cend%7Bvmatrix%7D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CE%7C%20&amp;=%202(4%20%5Ccdot%205%20-%20(-2%20%5Ccdot%203))%20+%201(0%20%5Ccdot%205%20-%20(-2%20%5Ccdot%201))%20+%203(0%20%5Ccdot%203%20-%204%20%5Ccdot%201)%20%5C%5C%0A%7CE%7C%20&amp;=%202(20%20-%20(-6))%20+%201(0%20-%20(-2))%20+%203(0%20-%204)%20%5C%5C%0A%7CE%7C%20&amp;=%202(26)%20+%201(2)%20+%203(-4)%20%5C%5C%0A%7CE%7C%20&amp;=%2052%20+%202%20-%2012%20%5C%5C%0A%7CE%7C%20&amp;=%2042%0A%5Cend%7Baligned%7D%0A"></p>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>Tarea</category>
+  <category>2027-I</category>
+  <guid>https://your-website-url.example.com/posts/2027i_tarea01/2027i_tarea01.html</guid>
+  <pubDate>Fri, 11 Sep 2026 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Clase 02: Operaciones con matrices</title>
+  <dc:creator>Eduardo Castro; Marvin Trejo</dc:creator>
+  <link>https://your-website-url.example.com/posts/2027i_0904/04sept_Matrices.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Existen distintas operaciones que pueden realizarse con matrices, a continuación les presentamos las más representativas.</p>
+<section id="operaciones-con-escalares" class="level1">
+<h1>Operaciones con escalares</h1>
+<p>Sea <img src="https://latex.codecogs.com/png.latex?A"> una matrix de <img src="https://latex.codecogs.com/png.latex?m">x<img src="https://latex.codecogs.com/png.latex?n"> y <img src="https://latex.codecogs.com/png.latex?%5Calpha"> un escalar:</p>
+<ol type="1">
+<li><p><img src="https://latex.codecogs.com/png.latex?%5Calpha%20A"></p></li>
+<li><p><img src="https://latex.codecogs.com/png.latex?1A=A"></p></li>
+<li><p><img src="https://latex.codecogs.com/png.latex?A%20+%20%5Cvarnothing%20=%20A"></p></li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A0%20&amp;%200%20%5C%5C%0A0%20&amp;%200%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<ol start="4" type="1">
+<li><img src="https://latex.codecogs.com/png.latex?%5Cvarnothing%20A%20=%20%5Cvarnothing"></li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cvarnothing%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A0%20&amp;%200%20%5C%5C%0A0%20&amp;%200%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</section>
+<section id="suma" class="level1">
+<h1>Suma</h1>
+<p>Dos matrices A y B se pueden sumar <strong>si y solo si</strong> tienen el mismo tamaño. La suma se realiza elemento por elemento, es decir:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bbmatrix%7D%0Aa_%7B11%7D%20&amp;%20a_%7B12%7D%20%5C%5C%0Aa_%7B21%7D%20&amp;%20a_%7B22%7D%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0Ab_%7B11%7D%20&amp;%20b_%7B12%7D%20%5C%5C%0Ab_%7B21%7D%20&amp;%20b_%7B22%7D%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0Aa_%7B11%7D+b_%7B11%7D%20&amp;%20a_%7B12%7D+b_%7B12%7D%20%5C%5C%0Aa_%7B21%7D+b_%7B21%7D%20&amp;%20a_%7B22%7D+b_%7B22%7D%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<section id="propiedades-de-la-suma" class="level2">
+<h2 class="anchored" data-anchor-id="propiedades-de-la-suma">Propiedades de la suma</h2>
+<p>Para la suma de matrices podemos utilizar las siguientes propiedades.</p>
+<ol type="1">
+<li>Propiedad conmutativa: <img src="https://latex.codecogs.com/png.latex?A+B=B+A"></li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA+B=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%202%20%5C%5C%0A6%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AB+A=%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%202%20%5C%5C%0A6%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<ol start="2" type="1">
+<li>Propiedad asociativa: <img src="https://latex.codecogs.com/png.latex?(A+B)+C=A+(B+C)">.</li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A(A+B)+C=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%202%20%5C%5C%0A-3%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%202%20%5C%5C%0A6%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%202%20%5C%5C%0A-3%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A5%20&amp;%204%20%5C%5C%0A3%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA+(B+C)=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%202%20%5C%5C%0A-3%20&amp;%20-2%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%201%20%5C%5C%0A-1%20&amp;%20-6%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A5%20&amp;%204%20%5C%5C%0A3%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<ol start="3" type="1">
+<li>Propiedad distributiva: <img src="https://latex.codecogs.com/png.latex?%5Calpha(A+B)=%5Calpha%20A%20+%20%5Calpha%20B">.</li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A2(A+B)=%0A2%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%203%20%5C%5C%0A4%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A+%0A2%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-1%20%5C%5C%0A2%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A2%20&amp;%206%20%5C%5C%0A8%20&amp;%204%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A6%20&amp;%20-2%20%5C%5C%0A4%20&amp;%20-8%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A8%20&amp;%204%20%5C%5C%0A12%20&amp;%20-4%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</section>
+</section>
+<section id="multiplicación" class="level1">
+<h1>Multiplicación</h1>
+<p>Dos matrices, <img src="https://latex.codecogs.com/png.latex?A_%7Bmn%7D"> y <img src="https://latex.codecogs.com/png.latex?B_%7Bij%7D"> se pueden multiplicar <strong>si y solo si</strong> <img src="https://latex.codecogs.com/png.latex?n=i">, es decir, el número de columnas de A es igual al número de filas de B. Por ejemplo</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%208%20&amp;%200%20%5C%5C%0A-3%20&amp;%202%20&amp;%205%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x3%7D%0A;%20%5Cquad%0AB=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A9%20&amp;%200%20%5C%5C%0A-6%20&amp;%202%20%5C%5C%0A8%20&amp;%204%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B3x2%7D%0A"></p>
+<ul>
+<li>Fila 1 por columna 1</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A1%20&amp;%208%20&amp;%200%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A9%20%5C%5C%0A-6%20%5C%5C%0A8%0A%5Cend%7Bpmatrix%7D%0A=%0A9-48+0=-39%0A"></p>
+<ul>
+<li>Fila 1 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A1%20&amp;%208%20&amp;%200%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A0%20%5C%5C%0A2%20%5C%5C%0A4%0A%5Cend%7Bpmatrix%7D%0A=%0A0+16+0=16%0A"></p>
+<ul>
+<li>Fila 2 por columna 1</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A-3%20&amp;%202%20&amp;%205%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A9%20%5C%5C%0A-6%20%5C%5C%0A8%0A%5Cend%7Bpmatrix%7D%0A=%0A-27-12+40=1%0A"></p>
+<ul>
+<li>Fila 2 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A-3%20&amp;%202%20&amp;%205%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A0%20%5C%5C%0A2%20%5C%5C%0A4%0A%5Cend%7Bpmatrix%7D%0A=%0A0+4+20=24%0A"></p>
+<p>Como resultado de multiplicar las matrices A y B tenemos:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AC=%0A%5Cbegin%7Bbmatrix%7D%0A-39%20&amp;%2016%20%5C%5C%0A1%20&amp;%2024%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<section id="propiedades-de-la-multiplicación" class="level2">
+<h2 class="anchored" data-anchor-id="propiedades-de-la-multiplicación">Propiedades de la multiplicación</h2>
+<ol type="1">
+<li>Propiedad distributiva: <img src="https://latex.codecogs.com/png.latex?A(B+C)=AB+AC"></li>
+<li>Propiedad asociativa: <img src="https://latex.codecogs.com/png.latex?A(BC)=(AB)C"></li>
+</ol>
+</section>
+</section>
+<section id="ejercicios-en-clase" class="level1">
+<h1>Ejercicios en clase</h1>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%206%20%5C%5C%0A8%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AB=%0A%5Cbegin%7Bbmatrix%7D%0A-3%20&amp;%209%20%5C%5C%0A5%20&amp;%20-7%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AC=%0A%5Cbegin%7Bbmatrix%7D%0A-9%20&amp;%201%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-8%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AD=%0A%5Cbegin%7Bbmatrix%7D%0A7%20&amp;%204%20%5C%5C%0A6%20&amp;%20-1%20%5C%5C%0A-5%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A%5Cqquad%0AE=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%207%20&amp;%20-8%20%5C%5C%0A4%20&amp;%209%20&amp;%20-7%20%5C%5C%0A2%20&amp;%200%20&amp;%203%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<p>Con base en las matrices previas, desarrolla los siguientes ejercicios:</p>
+<section id="ab" class="level2">
+<h2 class="anchored" data-anchor-id="ab">1) <img src="https://latex.codecogs.com/png.latex?A+B"></h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%206%20%5C%5C%0A8%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A-3%20&amp;%209%20%5C%5C%0A5%20&amp;%20-7%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A4-3%20&amp;%206+9%20%5C%5C%0A8+5%20&amp;%202-7%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%2015%20%5C%5C%0A13%20&amp;%20-5%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</section>
+<section id="d-4c" class="level2">
+<h2 class="anchored" data-anchor-id="d-4c">2) <img src="https://latex.codecogs.com/png.latex?2D-4C"></h2>
+<p>Para este ejercicio comprobamos el tamaño de cada matriz.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AD%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A7%20&amp;%204%20%5C%5C%0A6%20&amp;%20-1%20%5C%5C%0A-5%20&amp;%202%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B3x2%7D%0A;%20%5Cquad%0AC%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A-9%20&amp;%201%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-8%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x3%7D%0A"></p>
+<p>Dado que las matrices no tienen el mismo tamaño, <strong>por propiedad de la suma, la operación no se puede realizar.</strong></p>
+</section>
+<section id="frac12a4b" class="level2">
+<h2 class="anchored" data-anchor-id="frac12a4b">3) <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%7DA+4B"></h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cfrac%7B1%7D%7B2%7D%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%206%20%5C%5C%0A8%20&amp;%202%0A%5Cend%7Bbmatrix%7D%0A+%0A4%0A%5Cbegin%7Bbmatrix%7D%0A-3%20&amp;%209%20%5C%5C%0A5%20&amp;%20-7%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A2%20&amp;%203%20%5C%5C%0A4%20&amp;%201%0A%5Cend%7Bbmatrix%7D%0A+%0A%5Cbegin%7Bbmatrix%7D%0A-12%20&amp;%2036%20%5C%5C%0A20%20&amp;%20-28%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A-10%20&amp;%2039%20%5C%5C%0A24%20&amp;%20-27%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</section>
+<section id="b-cdot-c" class="level2">
+<h2 class="anchored" data-anchor-id="b-cdot-c">4) <img src="https://latex.codecogs.com/png.latex?-B%20%5Ccdot%20C"></h2>
+<ul>
+<li>Comprobamos el tamaño de cada matriz.</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0AB%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A-3%20&amp;%209%20%5C%5C%0A5%20&amp;%20-7%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x2%7D%0A;%20%5Cquad%0AC%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A-9%20&amp;%201%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-8%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x3%7D%0A"></p>
+<p>Dado que el número de columnas de <img src="https://latex.codecogs.com/png.latex?B"> es igual al número de filas de <img src="https://latex.codecogs.com/png.latex?C">, la operación se puede realizar y la matriz resultante tendrá un tamaño de <img src="https://latex.codecogs.com/png.latex?2%20%5Ctimes%203">.</p>
+<ul>
+<li>Primero multiplicamos por el escalar.</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A-B%20=%20-%0A%5Cbegin%7Bbmatrix%7D%0A-3%20&amp;%209%20%5C%5C%0A5%20&amp;%20-7%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A3%20&amp;%20-9%20%5C%5C%0A-5%20&amp;%207%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<ul>
+<li><p>Posteriormente procedemos con la multiplicación de matrices.</p></li>
+<li><p>Fila 1 por columna 1</p></li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A3%20&amp;%20-9%20%20%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A-9%20%5C%5C%0A0%0A%5Cend%7Bpmatrix%7D%0A=%0A-27-0=-27%0A"></p>
+<ul>
+<li>Fila 1 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A3%20&amp;%20-9%20%20%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A1%20%5C%5C%0A4%0A%5Cend%7Bpmatrix%7D%0A=%0A3-36=-33%0A"></p>
+<ul>
+<li>Fila 1 por columna 3</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A3%20&amp;%20-9%20%20%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A3%20%5C%5C%0A-8%0A%5Cend%7Bpmatrix%7D%0A=%0A9+72=81%0A"></p>
+<ul>
+<li>Fila 2 por columna 1</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A-5%20&amp;%207%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A-9%20%5C%5C%0A0%0A%5Cend%7Bpmatrix%7D%0A=%0A45+0=45%0A"></p>
+<ul>
+<li>Fila 2 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A-5%20&amp;%207%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A1%20%5C%5C%0A4%0A%5Cend%7Bpmatrix%7D%0A=%0A-5+28=23%0A"></p>
+<ul>
+<li>Fila 2 por columna 3</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A-5%20&amp;%207%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A3%20%5C%5C%0A-8%0A%5Cend%7Bpmatrix%7D%0A=%0A-15-56=-71%0A"></p>
+<p>Como resultado de la multiplicación tenemos:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bbmatrix%7D%0A-27%20&amp;%20-33%20&amp;%2081%20%5C%5C%0A45%20&amp;%2023%20&amp;%20-71%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</section>
+<section id="cd-b" class="level2">
+<h2 class="anchored" data-anchor-id="cd-b">5) <img src="https://latex.codecogs.com/png.latex?-3CD-B"></h2>
+<ul>
+<li>Para este ejercicio, lo primero es comprobar si podemos realizar la multiplicación de matrices <img src="https://latex.codecogs.com/png.latex?CD">.</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0AC%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A-9%20&amp;%201%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-8%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x3%7D%0A;%20%5Cquad%0AD=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A7%20&amp;%204%20%5C%5C%0A6%20&amp;%20-1%20%5C%5C%0A-5%20&amp;%202%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B3x2%7D%0A"></p>
+<p>Dado que el número de columnas de <img src="https://latex.codecogs.com/png.latex?C"> es igual al número de filas de <img src="https://latex.codecogs.com/png.latex?D">, la operación se puede realizar y la matriz resultante tendrá un tamaño de <img src="https://latex.codecogs.com/png.latex?2%20%5Ctimes%202">.</p>
+<ul>
+<li><p>Procedemos a realizar la multiplicación de matrices.</p></li>
+<li><p>Fila 1 por columna 1</p></li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A-9%20&amp;%201%20&amp;%203%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A7%20%5C%5C%0A6%20%5C%5C%0A-5%0A%5Cend%7Bpmatrix%7D%0A=%0A-63+6-15=-72%0A"></p>
+<ul>
+<li>Fila 1 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A-9%20&amp;%201%20&amp;%203%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A4%20%5C%5C%0A-1%20%5C%5C%0A2%0A%5Cend%7Bpmatrix%7D%0A=%0A-36-1+6=-31%0A"></p>
+<ul>
+<li>Fila 2 por columna 1</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A0%20&amp;%204%20&amp;%20-8%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A7%20%5C%5C%0A6%20%5C%5C%0A-5%0A%5Cend%7Bpmatrix%7D%0A=%0A0+24+40=64%0A"></p>
+<ul>
+<li>Fila 2 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A0%20&amp;%204%20&amp;%20-8%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A4%20%5C%5C%0A-1%20%5C%5C%0A2%0A%5Cend%7Bpmatrix%7D%0A=%0A0-4-16=-20%0A"></p>
+<p>La matriz resultante <img src="https://latex.codecogs.com/png.latex?CD"> es:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0ACD%20=%0A%5Cbegin%7Bbmatrix%7D%0A-72%20&amp;%20-31%20%5C%5C%0A64%20&amp;%20-20%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<ul>
+<li>A continuación, multiplicamos por el escalar.</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A-3CD%20=%20-3%0A%5Cbegin%7Bbmatrix%7D%0A-72%20&amp;%20-31%20%5C%5C%0A64%20&amp;%20-20%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A216%20&amp;%2093%20%5C%5C%0A-192%20&amp;%2060%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<ul>
+<li>Finalmente restamos la matriz <img src="https://latex.codecogs.com/png.latex?B">. Dado que ambas son de <img src="https://latex.codecogs.com/png.latex?2%20%5Ctimes%202">, podemos hacerlo.</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A-3CD%20-%20B%20=%0A%5Cbegin%7Bbmatrix%7D%0A216%20&amp;%2093%20%5C%5C%0A-192%20&amp;%2060%0A%5Cend%7Bbmatrix%7D%0A-%0A%5Cbegin%7Bbmatrix%7D%0A-3%20&amp;%209%20%5C%5C%0A5%20&amp;%20-7%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A216+3%20&amp;%2093-9%20%5C%5C%0A-192-5%20&amp;%2060+7%0A%5Cend%7Bbmatrix%7D%0A=%0A%5Cbegin%7Bbmatrix%7D%0A219%20&amp;%2084%20%5C%5C%0A-197%20&amp;%2067%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</section>
+<section id="ac" class="level2">
+<h2 class="anchored" data-anchor-id="ac">6) <img src="https://latex.codecogs.com/png.latex?AC"></h2>
+<ul>
+<li>Comprobamos el tamaño de las matrices.</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A4%20&amp;%206%20%5C%5C%0A8%20&amp;%202%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x2%7D%0A;%20%5Cquad%0AC%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A-9%20&amp;%201%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-8%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x3%7D%0A"></p>
+<p>Dado que el número de columnas de <img src="https://latex.codecogs.com/png.latex?A"> es igual al número de filas de <img src="https://latex.codecogs.com/png.latex?C">, la operación se puede realizar y la matriz resultante será de <img src="https://latex.codecogs.com/png.latex?2%20%5Ctimes%203">.</p>
+<ul>
+<li><p>Procedemos con la multiplicación:</p></li>
+<li><p>Fila 1 por columna 1</p></li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A4%20&amp;%206%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A-9%20%5C%5C%0A0%0A%5Cend%7Bpmatrix%7D%0A=%0A-36+0=-36%0A"></p>
+<ul>
+<li>Fila 1 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A4%20&amp;%206%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A1%20%5C%5C%0A4%0A%5Cend%7Bpmatrix%7D%0A=%0A4+24=28%0A"></p>
+<ul>
+<li>Fila 1 por columna 3</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A4%20&amp;%206%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A3%20%5C%5C%0A-8%0A%5Cend%7Bpmatrix%7D%0A=%0A12-48=-36%0A"></p>
+<ul>
+<li>Fila 2 por columna 1</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A8%20&amp;%202%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A-9%20%5C%5C%0A0%0A%5Cend%7Bpmatrix%7D%0A=%0A-72+0=-72%0A"></p>
+<ul>
+<li>Fila 2 por columna 2</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A8%20&amp;%202%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A1%20%5C%5C%0A4%0A%5Cend%7Bpmatrix%7D%0A=%0A8+8=16%0A"></p>
+<ul>
+<li>Fila 2 por columna 3</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bpmatrix%7D%0A8%20&amp;%202%0A%5Cend%7Bpmatrix%7D%0A%5Cbegin%7Bpmatrix%7D%0A3%20%5C%5C%0A-8%0A%5Cend%7Bpmatrix%7D%0A=%0A24-16=8%0A"></p>
+<p>La matriz resultante es: <img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bbmatrix%7D%0A-36%20&amp;%2028%20&amp;%20-36%20%5C%5C%0A-72%20&amp;%2016%20&amp;%208%0A%5Cend%7Bbmatrix%7D%0A"></p>
+</section>
+<section id="ec" class="level2">
+<h2 class="anchored" data-anchor-id="ec">7) <img src="https://latex.codecogs.com/png.latex?3(EC)"></h2>
+<ul>
+<li>Primero, revisamos si es posible multiplicar <img src="https://latex.codecogs.com/png.latex?EC">.</li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0AE%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A1%20&amp;%207%20&amp;%20-8%20%5C%5C%0A4%20&amp;%209%20&amp;%20-7%20%5C%5C%0A2%20&amp;%200%20&amp;%203%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B3x3%7D%0A;%20%5Cquad%0AC%20=%0A%5Cunderbrace%7B%0A%5Cbegin%7Bbmatrix%7D%0A-9%20&amp;%201%20&amp;%203%20%5C%5C%0A0%20&amp;%204%20&amp;%20-8%0A%5Cend%7Bbmatrix%7D%7D%0A_%7B2x3%7D%0A"></p>
+<p>Dado que el número de columnas de <img src="https://latex.codecogs.com/png.latex?E"> NO es igual al número de filas de <img src="https://latex.codecogs.com/png.latex?C">, <strong>la multiplicación <img src="https://latex.codecogs.com/png.latex?EC"> no puede realizarse.</strong></p>
+</section>
+</section>
+<section id="determinante-3x3" class="level1">
+<h1>Determinante 3x3</h1>
+<p>En la clase previa calculamos el determinante para una matriz de <img src="https://latex.codecogs.com/png.latex?2%20%5Ctimes%202">. En el caso de las matrices de <img src="https://latex.codecogs.com/png.latex?3%20%5Ctimes%203"> podemos recurrir a dos métodos: <strong>regla de Sarrus y cofactores</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>En esencia, el determinante de una matriz es un número real compuesto por la suma de <strong>todas las combinaciones</strong> de los elementos de una matriz, <strong>en las cuales hay exactamente un elemento de cada fila y uno de cada columna</strong>.</p>
+<p>Tanto la regla de Sarrus como el método de cofactores siguen esta lógica.</p>
+</div>
+</div>
+<p>Utilicemos como ejemplo la matriz A:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7Cc%7D%0A4%20&amp;%20-3%20&amp;%20-1%20&amp;%200%20%5C%5C%0A7%20&amp;%20-4%20&amp;%203%20&amp;%206%20%5C%5C%0A1%20&amp;%205%20&amp;%20-2%20&amp;%204%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Regla de Sarrus</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Cofactores</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p>Este método consiste en combiar los elementos de la matriz mediante un patrón de triángulos opuestos.</p>
+<ol type="1">
+<li>Primero identificamos la diagonal principal (verde) y a partir de ahí “dibujamos” dos triángulos con los elementos. Multiplicamos los elementos de cada grupo y sumamos.</li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7D%0A%7B%5Ccolor%7B#058789%7D%7B4%7D%7D%20&amp;%20%7B%5Ccolor%7B#d54b1a%7D%7B-3%7D%7D%20&amp;%20%7B%5Ccolor%7B#e3a72f%7D%7B-1%7D%7D%20%5C%5C%0A%7B%5Ccolor%7B#e3a72f%7D%7B7%7D%7D%20&amp;%20%7B%5Ccolor%7B#058789%7D%7B-4%7D%7D%20&amp;%20%7B%5Ccolor%7B#d54b1a%7D%7B3%7D%7D%20%5C%5C%0A%7B%5Ccolor%7B#d54b1a%7D%7B1%7D%7D%20&amp;%20%7B%5Ccolor%7B#e3a72f%7D%7B5%7D%7D%20&amp;%20%7B%5Ccolor%7B#058789%7D%7B-2%7D%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Ccolor%7B#058789%7D%7B(4%20%5Ccdot%20-4%20%5Ccdot%20-2)%7D+%0A%5Ccolor%7B#d54b1a%7D%7B(-3%20%5Ccdot%203%20%5Ccdot%201)%7D+%0A%5Ccolor%7B#e3a72f%7D%7B(-1%20%5Ccdot%207%20%5Ccdot%205)%7D%0A"></p>
+<ol start="2" type="1">
+<li>Repetimos el proceso pero ahora a partir de la diagonal secundaria.</li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0AB%20=%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bccc%7D%0A%7B%5Ccolor%7B#213722%7D%7B4%7D%7D%20&amp;%20%7B%5Ccolor%7B#f8c662%7D%7B-3%7D%7D%20&amp;%20%7B%5Ccolor%7B#baaceb%7D%7B-1%7D%7D%20%5C%5C%0A%7B%5Ccolor%7B#f8c662%7D%7B7%7D%7D%20&amp;%20%7B%5Ccolor%7B#baaceb%7D%7B-4%7D%7D%20&amp;%20%7B%5Ccolor%7B#213722%7D%7B3%7D%7D%20%5C%5C%0A%7B%5Ccolor%7B#baaceb%7D%7B1%7D%7D%20&amp;%20%7B%5Ccolor%7B#213722%7D%7B5%7D%7D%20&amp;%20%7B%5Ccolor%7B#f8c662%7D%7B-2%7D%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Ccolor%7B#baaceb%7D%7B(1%20%5Ccdot%20-4%20%5Ccdot%20-1)%7D+%0A%5Ccolor%7B#213722%7D%7B(4%20%5Ccdot%205%20%5Ccdot%203)%7D+%0A%5Ccolor%7B#f8c662%7D%7B(7%20%5Ccdot%20-3%20%5Ccdot%20-2)%7D%0A"></p>
+<ol start="3" type="1">
+<li>Por último, al resultado del primer paso le restamos el resultado del segundo paso</li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CA%7C%20=%20%5B(4%20%5Ccdot%20-4%20%5Ccdot%20-2)+(-3%20%5Ccdot%203%20%5Ccdot%201)%20+%20(-1%20%5Ccdot%207%20%5Ccdot%205)%5D-%5B(1%20%5Ccdot%20-4%20%5Ccdot%20-1)+(4%20%5Ccdot%205%20%5Ccdot%203)%20+%20(7%20%5Ccdot%20-3%20%5Ccdot%20-2)%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CA%7C%20=%5B32-9-35%5D-%5B4+60+42%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CA%7C=-12-106=-118%0A"></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<p>Este método consiste en seleccionar una fila o columna, a partir de la cual se construyen matrices de menor tamaño. En matrices de <img src="https://latex.codecogs.com/png.latex?3%20%5Ctimes%203"> se sugiere utilizar el siguiente orden:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CA%7C%20=%0Aa_%7B11%7D%0A%5Cleft%7C%0A%5Cbegin%7Barray%7D%7Bcc%7D%0Aa_%7B22%7D%20&amp;%20a_%7B23%7D%20%5C%5C%0Aa_%7B32%7D%20&amp;%20a_%7B33%7D%0A%5Cend%7Barray%7D%0A%5Cright%7C%0A-%0Aa_%7B12%7D%0A%5Cleft%7C%0A%5Cbegin%7Barray%7D%7Bcc%7D%0Aa_%7B21%7D%20&amp;%20a_%7B23%7D%20%5C%5C%0Aa_%7B31%7D%20&amp;%20a_%7B33%7D%0A%5Cend%7Barray%7D%0A%5Cright%7C%0A+%0Aa_%7B13%7D%0A%5Cleft%7C%0A%5Cbegin%7Barray%7D%7Bcc%7D%0Aa_%7B21%7D%20&amp;%20a_%7B22%7D%20%5C%5C%0Aa_%7B31%7D%20&amp;%20a_%7B32%7D%0A%5Cend%7Barray%7D%0A%5Cright%7C%0A"></p>
+<p>En el caso de la matriz <img src="https://latex.codecogs.com/png.latex?A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CA%7C%20=%0A4%0A%5Cleft%7C%0A%5Cbegin%7Barray%7D%7Bcc%7D%0A-4%20&amp;%203%20%5C%5C%0A5%20&amp;%20-2%0A%5Cend%7Barray%7D%0A%5Cright%7C%0A-%0A(-3)%0A%5Cleft%7C%0A%5Cbegin%7Barray%7D%7Bcc%7D%0A7%20&amp;%203%20%5C%5C%0A1%20&amp;%20-2%0A%5Cend%7Barray%7D%0A%5Cright%7C%0A+%0A(-1)%0A%5Cleft%7C%0A%5Cbegin%7Barray%7D%7Bcc%7D%0A7%20&amp;%20-4%20%5C%5C%0A1%20&amp;%205%0A%5Cend%7Barray%7D%0A%5Cright%7C%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CA%7C%20=%204%20%5B(-4%20%5Ccdot-2)%20-%20(5%20%5Ccdot%203)%5D-(-3)%20%5B(7%20%5Ccdot-2)%20-%20(1%20%5Ccdot%203)%5D%20+%20(-1)%5B(7%20%5Ccdot5)%20-%20(1%20%5Ccdot%20-4)%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CA%7C%20=%204(-7)-(-3)(-17)+(-1)(39)%20=%20-28-51-39%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%7CA%7C%20=%20-118%0A"></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La <strong>regla de Sarrus</strong> se puede utilizar <strong>únicamente en matrices de <img src="https://latex.codecogs.com/png.latex?3%20%5Ctimes%203"></strong>, mientras que el <strong>método de cofactores</strong> puede utilizarse en <strong>matrices cuadradas de cualquier tamaño</strong>.</p>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>Apunte de clase</category>
+  <category>2027-I</category>
+  <guid>https://your-website-url.example.com/posts/2027i_0904/04sept_Matrices.html</guid>
+  <pubDate>Fri, 04 Sep 2026 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Clase 01: Sistemas de ecuaciones lineales</title>
+  <dc:creator>Eduardo Castro; Marvin Trejo</dc:creator>
+  <link>https://your-website-url.example.com/posts/2027i_0828/28ago_SEL.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ecuaciones" class="level1">
+<h1>Ecuaciones</h1>
+<p>Una ecuación es una igualdad matemática en la que existen una o varias incógnitas y que solo es verdadera para determinados valores de las incógnitas.</p>
+<p>Las incógnitas se pueden representar con cualquier letras del alfabeto <img src="https://latex.codecogs.com/png.latex?(a,b,c,...,%20x,%20y,z)"> e incluso pueden contener subíndices <img src="https://latex.codecogs.com/png.latex?(x_1,%20y_1,%20...,%20Q_d,%20Q_s)">.</p>
+<p>Podemos conocer el valor de una incógnita despejando el resto de los valores, para ello es necesario realizar la misma operación en ambos términos de de la ecuación.</p>
+</section>
+<section id="sistemas-de-ecuaciones-lineales" class="level1">
+<h1>Sistemas de Ecuaciones Lineales</h1>
+<p>Los sistemas de ecuaciones lineales son una herramienta importante para la solución de problemas que involucran a más de dos variables y tienen múltiples aplicaciones en la economía.</p>
+<p>Un sistema de ecuaciones lineales consiste en un conjunto de dos o más ecuaciones con varias incógnitas, a través de los cuales es posible encontrar los valores que satisfacen todas las ecuaciones al mismo tiempo. Estos valores se conocen como solución o conjunto solución y se pueden presentar de distintas maneras.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0Aa_%7B11%7Dx_1+a_%7B12%7Dy_1%20&amp;=%20b_1%20%5C%5C%0Aa_%7B21%7Dx_2+a_%7B22%7Dy_2%20&amp;=%20b_2%0A%5Cend%7Balign%7D%0A"></p>
+<section id="tipos-de-soluciones" class="level2">
+<h2 class="anchored" data-anchor-id="tipos-de-soluciones">Tipos de soluciones</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Solución única</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Soluciones infinitas</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" aria-controls="tabset-1-3" aria-selected="false" href="">Sin solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p>Este tipo de solución cuenta con un único conjunto de valores que satisfacen todas las ecuaciones del sistema. Gráficamente, esta solución se encuentra en el punto de intersección de las rectas del sistema.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0Ax+y%20&amp;=%204%20%5C%5C%0Ax-y%20&amp;=%202%0A%5Cend%7Balign%7D%0A"></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="highchart html-widget html-fill-item" id="htmlwidget-a8fc71d31af32a7ff5e8" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-a8fc71d31af32a7ff5e8">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":"Solución única","style":{"fontSize":"18px","fontWeight":"bold"}},"yAxis":{"title":{"text":"y"}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"series":[{"group":"group","data":[{"x":-1,"y":5},{"x":-0.5,"y":4.5},{"x":0,"y":4},{"x":0.5,"y":3.5},{"x":1,"y":3},{"x":1.5,"y":2.5},{"x":2,"y":2},{"x":2.5,"y":1.5},{"x":3,"y":1},{"x":3.5,"y":0.5},{"x":4,"y":0},{"x":4.5,"y":-0.5},{"x":5,"y":-1}],"type":"line","name":"x + y = 4","color":"blue"},{"group":"group","data":[{"x":-1,"y":-3},{"x":-0.5,"y":-2.5},{"x":0,"y":-2},{"x":0.5,"y":-1.5},{"x":1,"y":-1},{"x":1.5,"y":-0.5},{"x":2,"y":0},{"x":2.5,"y":0.5},{"x":3,"y":1},{"x":3.5,"y":1.5},{"x":4,"y":2},{"x":4.5,"y":2.5},{"x":5,"y":3}],"type":"line","name":"x - y = 2","color":"red"},{"group":"group","data":[{"x":3,"y":1}],"type":"scatter","name":"Solución (3, 1)","marker":{"symbol":"circle","radius":6,"fillColor":"black"}}],"legend":{"enabled":true},"xAxis":{"title":{"text":"x"}},"tooltip":{"shared":true}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<p>Este tipo de solución se caracteriza por contar con más de un conjunto de valores que satisfacen el sistema de ecuaciones, es decir, el conjunto solución comprende todos los puntos de las rectas del sistema y gráficamente se observa como rectas superpuestas.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0A2x+4y%20&amp;=%208%20%5C%5C%0Ax+2y%20&amp;=%204%0A%5Cend%7Balign%7D%0A"></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="highchart html-widget html-fill-item" id="htmlwidget-1d49d193e410d3f25b1d" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-1d49d193e410d3f25b1d">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":"Soluciones infinitas","style":{"fontSize":"18px","fontWeight":"bold"}},"yAxis":{"title":{"text":"y"}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"series":[{"group":"group","data":[{"x":-1,"y":2.5},{"x":-0.5,"y":2.25},{"x":0,"y":2},{"x":0.5,"y":1.75},{"x":1,"y":1.5},{"x":1.5,"y":1.25},{"x":2,"y":1},{"x":2.5,"y":0.75},{"x":3,"y":0.5},{"x":3.5,"y":0.25},{"x":4,"y":0},{"x":4.5,"y":-0.25},{"x":5,"y":-0.5}],"type":"line","name":"2x + 4y = 8","color":"blue"},{"group":"group","data":[{"x":-1,"y":2.5},{"x":-0.5,"y":2.25},{"x":0,"y":2},{"x":0.5,"y":1.75},{"x":1,"y":1.5},{"x":1.5,"y":1.25},{"x":2,"y":1},{"x":2.5,"y":0.75},{"x":3,"y":0.5},{"x":3.5,"y":0.25},{"x":4,"y":0},{"x":4.5,"y":-0.25},{"x":5,"y":-0.5}],"type":"line","name":"x + 2y = 4","color":"red"}],"legend":{"enabled":true},"xAxis":{"title":{"text":"x"}},"tooltip":{"shared":true}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" aria-labelledby="tabset-1-3-tab">
+<p>Existen casos en donde el sistema no tiene solución. Esto se debe a que las rectas que componen al sistema no tienen puntos en común, es decir, gráficamente son líneas paralelas.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0Ax+y%20&amp;=%203%20%5C%5C%0Ax+y%20&amp;=%205%0A%5Cend%7Balign%7D%0A"></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="highchart html-widget html-fill-item" id="htmlwidget-055241e5dfe1454e97ec" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-055241e5dfe1454e97ec">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":"Sin solución","style":{"fontSize":"18px","fontWeight":"bold"}},"yAxis":{"title":{"text":"y"}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"series":[{"group":"group","data":[{"x":-1,"y":4},{"x":-0.5,"y":3.5},{"x":0,"y":3},{"x":0.5,"y":2.5},{"x":1,"y":2},{"x":1.5,"y":1.5},{"x":2,"y":1},{"x":2.5,"y":0.5},{"x":3,"y":0},{"x":3.5,"y":-0.5},{"x":4,"y":-1},{"x":4.5,"y":-1.5},{"x":5,"y":-2}],"type":"line","name":"x + y = 3","color":"blue"},{"group":"group","data":[{"x":-1,"y":6},{"x":-0.5,"y":5.5},{"x":0,"y":5},{"x":0.5,"y":4.5},{"x":1,"y":4},{"x":1.5,"y":3.5},{"x":2,"y":3},{"x":2.5,"y":2.5},{"x":3,"y":2},{"x":3.5,"y":1.5},{"x":4,"y":1},{"x":4.5,"y":0.5},{"x":5,"y":0}],"type":"line","name":"x + y = 5","color":"red"}],"legend":{"enabled":true},"xAxis":{"title":{"text":"x"}},"tooltip":{"shared":true}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Soluciones y determinante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>El determinante de un sistema de ecuaciones nos proporciona información sobre el tipo de solución que tiene el sistema.</p>
+<ul>
+<li>Cuando el determinante es distinto de cero <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200">, <strong>el sistema tiene solución única</strong>.</li>
+<li>Cuando el determinante es cero <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20=%200">, <strong>el sistema no tiene solución o tiene soluciones infinitas</strong></li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="matrices" class="level1">
+<h1>Matrices</h1>
+<p>Una matriz es un arreglo rectangular de <img src="https://latex.codecogs.com/png.latex?m">x<img src="https://latex.codecogs.com/png.latex?n"> números reales o complejos ordenados en <img src="https://latex.codecogs.com/png.latex?m"> filas horizontales y <img src="https://latex.codecogs.com/png.latex?n"> columnas verticales.</p>
+<ul>
+<li><p><img src="https://latex.codecogs.com/png.latex?i"> filas <img src="https://latex.codecogs.com/png.latex?1%20%5Cleq%20i%20%5Cleq%20m"></p></li>
+<li><p><img src="https://latex.codecogs.com/png.latex?j"> columnas <img src="https://latex.codecogs.com/png.latex?1%20%5Cleq%20j%20%5Cleq%20m"></p></li>
+</ul>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cbegin%7Bbmatrix%7D%0Aa_%7B11%7D%20&amp;%20a_%7B12%7D%20&amp;%20%5Ccdots%20&amp;%20a_%7B1n%7D%20%5C%5C%0Aa_%7B21%7D%20&amp;%20a_%7B22%7D%20&amp;%20%5Ccdots%20&amp;%20a_%7B2n%7D%20%5C%5C%0A%5Cvdots%20&amp;%20%5Cvdots%20&amp;%20%5Cddots%20&amp;%20%5Cvdots%20%5C%5C%0Aa_%7Bm1%7D%20&amp;%20a_%7Bm2%7D%20&amp;%20%5Ccdots%20&amp;%20a_%7Bmn%7D%0A%5Cend%7Bbmatrix%7D%0A"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Dimensión de una matriz
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Una matriz <img src="https://latex.codecogs.com/png.latex?m">x<img src="https://latex.codecogs.com/png.latex?n"> se dice que es de orden o tamaño <img src="https://latex.codecogs.com/png.latex?m">x<img src="https://latex.codecogs.com/png.latex?n"> donde:</p>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?m"> indica el <strong>número de filas</strong>.</li>
+<li><img src="https://latex.codecogs.com/png.latex?n"> indica el <strong>número de columnas</strong>.</li>
+</ul>
+<p>Cuando <img src="https://latex.codecogs.com/png.latex?m=n"> la matriz es <strong>cuadrada</strong>.</p>
+<p>Cuando <img src="https://latex.codecogs.com/png.latex?m%20%5Cneq%20n"> la matriz es <strong>rectangular</strong>.</p>
+</div>
+</div>
+<section id="ejemplo-1" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplo-1">Ejemplo 1</h2>
+<p>Un sistema de ecuaciones se puede expresar en su forma matricial de la siguiente manera:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A3x+6y%20&amp;=%209%20%5C%5C%0A-2x+3y%20&amp;=%204%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A3%20&amp;%206%20&amp;%209%20%5C%5C%0A-2%20&amp;%203%20&amp;%204%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Para conocer la solución al sistema, podemos empezar por calcular el determinante, en este caso está dado por:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%20a_%7B11%7D%20%5Ccdot%20a_%7B22%7D-a_%7B12%7D%20%5Ccdot%20a_%7B21%7D%20%5C%5C%0A%7CA%7C%20&amp;=3%5Ccdot3-(6%5Ccdot-2)=9+12=21%0A%5Cend%7Baligned%7D%0A"></p>
+<p>En este caso <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200">, por lo que podemos concluir que <strong>el sistema tiene solución única</strong>.</p>
+<p>Para encontrar la solución del sistema existen diferentes métodos, para este ejemplo utilizaremos el método de <strong>Gauss-Jordan</strong> que consiste en convertir en 1 todos los valores de la diagonal principal y en 0 el resto de los valores, es decir, tenemos que llegar a la siguiente forma:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AA%20=%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20x_1%20%5C%5C%0A0%20&amp;%201%20&amp;%20x_2%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p>Para hacerlo, se pueden realizar las siguientes operaciones en las filas:</p>
+<ul>
+<li>Sumar o restarse entre sí.</li>
+<li>Intercambiarse.</li>
+<li>Multiplicarse por un escalar.</li>
+</ul>
+<ol type="1">
+<li>Multiplicamos la fila 1 por 1/3</li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A3%20&amp;%206%20&amp;%209%20%5C%5C%0A-2%20&amp;%203%20&amp;%204%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=%5Ctfrac%7B1%7D%7B3%7DF_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%202%20&amp;%203%20%5C%5C%0A-2%20&amp;%203%20&amp;%204%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<ol start="2" type="1">
+<li>Multiplicamos la fila 1 por 2 y la sumamos a la fila 1.</li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%202%20&amp;%203%20%5C%5C%0A-2%20&amp;%203%20&amp;%204%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=2F_1+F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%202%20&amp;%203%20%5C%5C%0A0%20&amp;%207%20&amp;%2010%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<ol start="3" type="1">
+<li>Multiplicamos la fila 2 por su recíproco <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B7%7D"></li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%202%20&amp;%203%20%5C%5C%0A0%20&amp;%207%20&amp;%2010%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=%5Cfrac%7B1%7D%7B7%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%202%20&amp;%203%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B10%7D%7B7%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<ol start="4" type="1">
+<li>Por último, multiplicamos la fila 2 por <img src="https://latex.codecogs.com/png.latex?-2"> y la sumamos a la fila 1 <img src="https://latex.codecogs.com/png.latex?F_1-2F_2+"></li>
+</ol>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%202%20&amp;%203%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B10%7D%7B7%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1%20=%20F_1-%202F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B7%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B10%7D%7B7%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B7%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B10%7D%7B7%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0Ax=%5Cfrac%7B1%7D%7B7%7D%20%5C%5C%0Ay=%5Cfrac%7B10%7D%7B7%7D%0A%5Cend%7Barray%7D%0A"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>El orden sugerido para resolver por Gauss-Jordan es: <img src="https://latex.codecogs.com/png.latex?a_%7B11%7D,%20a_%7B21%7D,%20a_%7B22%7D"> y por último <img src="https://latex.codecogs.com/png.latex?a_%7B12%7D"></p>
+</div>
+</div>
+</section>
+<section id="ejemplo-2" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplo-2">Ejemplo 2</h2>
+<p>Dado el siguiente sistema de ecuaciones:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A3x+6y%20&amp;=%209%20%5C%5C%0A2x+4y%20&amp;=%206%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A3%20&amp;%206%20&amp;%209%20%5C%5C%0A2%20&amp;%204%20&amp;%206%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BB%7D%7D%0A"></p>
+<p>Antes de intentar resolver el sistema, calculamos el determinante para conocer si tiene o no solución:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CB%7C%20&amp;=3%5Ccdot4-(2%5Ccdot6)=12-12=0%0A%5Cend%7Baligned%7D%0A"></p>
+<p>En este caso, dado que <img src="https://latex.codecogs.com/png.latex?%7CB%7C=0"> podemos afirmar que <strong>el sistema no tiene solución o tiene soluciones infinitas</strong>, por lo que no tiene sentido intentar resolverlo.</p>
+<p>¿Por qué sucede esto? A modo de ejemplo, probemos multiplicando las filas de nuestro sistema por un escalar:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A3%20&amp;%206%20&amp;%209%20%5C%5C%0A2%20&amp;%204%20&amp;%206%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=%5Ctfrac%7B1%7D%7B3%7DF_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%202%20&amp;%203%20%5C%5C%0A2%20&amp;%204%20&amp;%206%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=%5Ctfrac%7B1%7D%7B2%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%202%20&amp;%203%20%5C%5C%0A1%20&amp;%202%20&amp;%203%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p>Como pueden ver, ambas ecuaciones son la misma, por lo que <strong>gráficamente describen la misma recta</strong>. La única diferencia entre las dos ecuaciones es que, en el sistema original, cada una estaba multiplicada por un escalar distinto.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="highchart html-widget html-fill-item" id="htmlwidget-da3d05ab89363a22ba05" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-da3d05ab89363a22ba05">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":null},"yAxis":{"title":{"text":"y"}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"series":[{"group":"group","data":[{"x":-5,"y":4},{"x":-4.5,"y":3.75},{"x":-4,"y":3.5},{"x":-3.5,"y":3.25},{"x":-3,"y":3},{"x":-2.5,"y":2.75},{"x":-2,"y":2.5},{"x":-1.5,"y":2.25},{"x":-1,"y":2},{"x":-0.5,"y":1.75},{"x":0,"y":1.5},{"x":0.5,"y":1.25},{"x":1,"y":1},{"x":1.5,"y":0.75},{"x":2,"y":0.5},{"x":2.5,"y":0.25},{"x":3,"y":0},{"x":3.5,"y":-0.25},{"x":4,"y":-0.5},{"x":4.5,"y":-0.75},{"x":5,"y":-1}],"type":"line","name":"3x + 6y = 9","color":"blue"},{"group":"group","data":[{"x":-5,"y":4},{"x":-4.5,"y":3.75},{"x":-4,"y":3.5},{"x":-3.5,"y":3.25},{"x":-3,"y":3},{"x":-2.5,"y":2.75},{"x":-2,"y":2.5},{"x":-1.5,"y":2.25},{"x":-1,"y":2},{"x":-0.5,"y":1.75},{"x":0,"y":1.5},{"x":0.5,"y":1.25},{"x":1,"y":1},{"x":1.5,"y":0.75},{"x":2,"y":0.5},{"x":2.5,"y":0.25},{"x":3,"y":0},{"x":3.5,"y":-0.25},{"x":4,"y":-0.5},{"x":4.5,"y":-0.75},{"x":5,"y":-1}],"type":"line","name":"2x + 4y = 6","color":"red"}],"legend":{"enabled":true},"xAxis":{"title":{"text":"x"}},"tooltip":{"shared":true}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="ejemplo-3" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplo-3">Ejemplo 3</h2>
+<p>Ahora utilizaremos un ejemplo de la economía, un sistema compuesto por <strong>ecuaciones de oferta y demanda</strong>.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A10P+Q_D%20&amp;=%20300%20%5C%5C%0AQ_S+200%20&amp;=%2010P%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cbegin%7Baligned%7D%0AQ_D+10P%20&amp;=%20300%20%5C%5C%0AQ_S-10P%20&amp;=%20-200%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%2010%20&amp;%20300%20%5C%5C%0A1%20&amp;%20-10%20&amp;%20-200%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BC%7D%7D%0A"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Noten que tanto <img src="https://latex.codecogs.com/png.latex?Q_D"> como <img src="https://latex.codecogs.com/png.latex?Q_S"> se manejan como una misma variable <img src="https://latex.codecogs.com/png.latex?Q">. Esto es porque, en este caso, los subíndices D y S únicamente describen el origen de las cantidades (demanda y oferta, respectivamente).</p>
+</div>
+</div>
+<p>Como primer paso, <strong>verificamos que el sistema tenga solución única</strong>.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CC%7C%20&amp;=1%5Ccdot%20-10-(1%20%5Ccdot%2010)=-10-10=-20%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Dado que <img src="https://latex.codecogs.com/png.latex?%7CC%7C%20%5Cneq%200"> el sistema tiene solución única. Ahora procedemos a resolver.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%2010%20&amp;%20300%20%5C%5C%0A1%20&amp;%20-10%20&amp;%20-200%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%2010%20&amp;%20300%20%5C%5C%0A0%20&amp;%20-20%20&amp;%20-500%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%2010%20&amp;%20300%20%5C%5C%0A0%20&amp;%20-20%20&amp;%20-500%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=-%5Ctfrac%7B1%7D%7B20%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%2010%20&amp;%20300%20%5C%5C%0A0%20&amp;%201%20&amp;%2025%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%2010%20&amp;%20300%20%5C%5C%0A0%20&amp;%201%20&amp;%2025%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-10F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%2050%20%5C%5C%0A0%20&amp;%201%20&amp;%2025%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%2050%20%5C%5C%0A0%20&amp;%201%20&amp;%2025%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0AQ=50%20%5C%5C%0AP=25%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+</section>
+<section id="ejercicios-en-clase" class="level1">
+<h1>Ejercicios en clase</h1>
+<p>Para los siguientes sistemas de ecuaciones:</p>
+<ul>
+<li>Calcula el determinante</li>
+<li>Resuelve los sistemas mediante el método de Gauss-Jordan.</li>
+</ul>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">1)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%5Calpha+%5Cbeta%20&amp;=%204%20%5C%5C%0A%5Calpha-%5Cbeta%20&amp;=%202%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%204%20%5C%5C%0A1%20&amp;%20-1%20&amp;%202%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Para conocer la solución al sistema, calculamos el determinante:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%201%20%5Ccdot%20-1%20-%20(1%20%5Ccdot%201)%20%5C%5C%0A%7CA%7C%20&amp;=%20-1-1=-2%0A%5Cend%7Baligned%7D%0A"></p>
+<p>En este caso <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200">, por lo que podemos concluir que <strong>el sistema tiene solución única</strong>.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%204%20%5C%5C%0A1%20&amp;%20-1%20&amp;%202%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%204%20%5C%5C%0A0%20&amp;%20-2%20&amp;%20-2%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%204%20%5C%5C%0A0%20&amp;%20-2%20&amp;%20-2%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=-%5Ctfrac%7B1%7D%7B2%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%204%20%5C%5C%0A0%20&amp;%201%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%204%20%5C%5C%0A0%20&amp;%201%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%203%20%5C%5C%0A0%20&amp;%201%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%203%20%5C%5C%0A0%20&amp;%201%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A%5Calpha=3%20%5C%5C%0A%5Cbeta=1%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0Ax+y-5%20&amp;=%200%20%5C%5C%0Ax-1%20&amp;=%20y%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cbegin%7Baligned%7D%0Ax+y%20&amp;=%205%20%5C%5C%0Ax-y%20&amp;=%201%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%205%20%5C%5C%0A1%20&amp;%20-1%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Calculamos el determinante:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%201%20%5Ccdot%20-1%20-%20(1%20%5Ccdot%201)%20%5C%5C%0A%7CA%7C%20&amp;=%20-1-1=-2%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Dado que <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200"> el sistema tiene solución única.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%205%20%5C%5C%0A1%20&amp;%20-1%20&amp;%201%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%205%20%5C%5C%0A0%20&amp;%20-2%20&amp;%20-4%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%205%20%5C%5C%0A0%20&amp;%20-2%20&amp;%20-4%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=-%5Ctfrac%7B1%7D%7B2%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%202%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%202%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%203%20%5C%5C%0A0%20&amp;%201%20&amp;%202%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%203%20%5C%5C%0A0%20&amp;%201%20&amp;%202%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0Ax=3%20%5C%5C%0Ay=2%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">3)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A2Q_D+3P-100%20&amp;=%200%20%5C%5C%0AQ_S%20&amp;=%202P-55%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cbegin%7Baligned%7D%0A2Q+3P%20&amp;=%20100%20%5C%5C%0AQ-2P%20&amp;=%20-55%5C%5C%0A%5Cend%7Baligned%7D%0A%5Cimplies%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A2%20&amp;%203%20&amp;%20100%20%5C%5C%0A1%20&amp;%20-2%20&amp;%20-55%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Calculamos el determinante:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%202%20%5Ccdot%20-2%20-%20(3%20%5Ccdot%201)%20%5C%5C%0A%7CA%7C%20&amp;=%20-4-3=-7%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Dado que <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200"> el sistema tiene solución única. En este caso, resulta útil intercambiar las filas 1 y 2 para tener un 1 en la posición <img src="https://latex.codecogs.com/png.latex?a_%7B11%7D">:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A2%20&amp;%203%20&amp;%20100%20%5C%5C%0A1%20&amp;%20-2%20&amp;%20-55%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1%20%5Cleftrightarrow%20F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%20-2%20&amp;%20-55%20%5C%5C%0A2%20&amp;%203%20&amp;%20100%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%20-2%20&amp;%20-55%20%5C%5C%0A2%20&amp;%203%20&amp;%20100%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-2F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%20-2%20&amp;%20-55%20%5C%5C%0A0%20&amp;%207%20&amp;%20210%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%20-2%20&amp;%20-55%20%5C%5C%0A0%20&amp;%207%20&amp;%20210%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=%5Ctfrac%7B1%7D%7B7%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%20-2%20&amp;%20-55%20%5C%5C%0A0%20&amp;%201%20&amp;%2030%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%20-2%20&amp;%20-55%20%5C%5C%0A0%20&amp;%201%20&amp;%2030%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1+2F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%2030%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%205%20%5C%5C%0A0%20&amp;%201%20&amp;%2030%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0AQ=5%20%5C%5C%0AP=30%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">4)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%20%5Cfrac%7B3%7D%7B4%7D%20%5C%5C%0A2%20&amp;%207%20&amp;%204%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Calculamos el determinante:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%201%20%5Ccdot%207%20-%20(1%20%5Ccdot%202)%20%5C%5C%0A%7CA%7C%20&amp;=%207-2=5%0A%5Cend%7Baligned%7D%0A"></p>
+<p>Dado que <img src="https://latex.codecogs.com/png.latex?%7CA%7C%20%5Cneq%200"> el sistema tiene solución única.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%20%5Cfrac%7B3%7D%7B4%7D%20%5C%5C%0A2%20&amp;%207%20&amp;%204%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=F_2-2F_1%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%20%5Cfrac%7B3%7D%7B4%7D%20%5C%5C%0A0%20&amp;%205%20&amp;%20%5Cfrac%7B5%7D%7B2%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%20%5Cfrac%7B3%7D%7B4%7D%20%5C%5C%0A0%20&amp;%205%20&amp;%20%5Cfrac%7B5%7D%7B2%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_2=%5Ctfrac%7B1%7D%7B5%7DF_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%20%5Cfrac%7B3%7D%7B4%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B1%7D%7B2%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%201%20&amp;%20%5Cfrac%7B3%7D%7B4%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B1%7D%7B2%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5C;%5C;%5Cxrightarrow%7BF_1=F_1-F_2%7D%5C;%5C;%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B4%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B1%7D%7B2%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A"></p>
+<p><strong>Solución</strong></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A1%20&amp;%200%20&amp;%20%5Cfrac%7B1%7D%7B4%7D%20%5C%5C%0A0%20&amp;%201%20&amp;%20%5Cfrac%7B1%7D%7B2%7D%0A%5Cend%7Barray%7D%0A%5Cright%5D%0A%5Cimplies%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0Ax=%5Cfrac%7B1%7D%7B4%7D%20%5C%5C%0Ay=%5Cfrac%7B1%7D%7B2%7D%0A%5Cend%7Barray%7D%0A"></p>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">5)</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cunderbrace%7B%0A%5Cleft%5B%0A%5Cbegin%7Barray%7D%7Bcc%7Cc%7D%0A5%20&amp;%207%20&amp;%2035%20%5C%5C%0A-10%20&amp;%20-14%20&amp;%20-70%0A%5Cend%7Barray%7D%0A%5Cright%5D%7D%0A_%7B%5Ctext%7BA%7D%7D%0A"></p>
+<p>Calculamos el determinante para conocer si tiene solución:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A%7CA%7C%20&amp;=%205%20%5Ccdot%20-14%20-%20(7%20%5Ccdot%20-10)%20%5C%5C%0A%7CA%7C%20&amp;=%20-70%20-%20(-70)%20=%20-70+70%20=%200%0A%5Cend%7Baligned%7D%0A"></p>
+<p>En este caso, dado que <img src="https://latex.codecogs.com/png.latex?%7CA%7C=0"> podemos afirmar que <strong>el sistema no tiene solución o tiene soluciones infinitas</strong>, por lo que no tiene sentido intentar resolverlo mediante el método de Gauss-Jordan.</p>
+
+
+<!-- -->
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Apunte de clase</category>
+  <category>2027-I</category>
+  <guid>https://your-website-url.example.com/posts/2027i_0828/28ago_SEL.html</guid>
+  <pubDate>Fri, 28 Aug 2026 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Vectores</title>
   <dc:creator>Eduardo Castro; Marvin Trejo</dc:creator>
