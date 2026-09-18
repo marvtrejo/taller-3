@@ -24,31 +24,70 @@ library(grid)
 v1 <- c(2, 3)
 
 vecs <- data.frame(
-  x = c(0, 0),
-  y = c(0, 0),
-  xend = c(v1[1], v2[1]),
-  yend = c(v1[2], v2[2]),
+  x = 0,
+  y = 0,
+  xend = v1[1],
+  yend = v1[2],
   label = c("", "")
 )
 
 ggplot() +
 
-  geom_segment(data = vecs, aes(x = x, y = y, xend = xend, yend = yend),
+  geom_segment(data = vecs, 
+               aes(x = x, 
+                   y = y, 
+                   xend = xend, 
+                   yend = yend),
                arrow = arrow(length = unit(0.25, "cm")),
                size = 1.1, color = "#003366") +
 
   geom_text(data = vecs, aes(x = xend, y = yend, label = label),
             nudge_x = 0.3, nudge_y = 0.3, size = 5) +
 
-  annotate("text", x = 0, y = 0, label = "(0, 0)", hjust = 1.2, vjust = 1.2, size = 5) +
-  annotate("text", x = v1[1], y = v1[2], label = "(2, 3)", hjust = -0.3, vjust = -0.5, size = 5) +
-  annotate("text", x = v2[1], y = v2[2], label = "P(x1, y1)", hjust = -0.1, vjust = -0.5, size = 5) +
-  annotate("text", x = 6.5, y = -0.3, label = "X", size = 6, fontface = "bold") +
-  annotate("text", x = -0.4, y = 5, label = "Y", size = 6, fontface = "bold") +
+  annotate("text", 
+           x = 0, 
+           y = 0, 
+           label = "(0, 0)", 
+           hjust = 1.2, 
+           vjust = 1.2, 
+           size = 5) +
+  
+  annotate("text", 
+           x = v1[1], 
+           y = v1[2], 
+           label = "(2, 3)", 
+           hjust = -0.3, 
+           vjust = -0.5, 
+           size = 5) +
+  
+  annotate("text", 
+           x = 6.5, 
+           y = -0.3, 
+           label = "X", 
+           size = 6, 
+           fontface = "bold") +
+  
+  annotate("text", 
+           x = -0.4, 
+           y = 5, 
+           label = "Y", 
+           size = 6, 
+           fontface = "bold") +
 
-  geom_segment(aes(x = -1, xend = 7, y = 0, yend = 0), color = "black", linewidth = 0.5,
+  geom_segment(aes(x = -1, 
+                   xend = 7, 
+                   y = 0, 
+                   yend = 0), 
+               color = "black", 
+               linewidth = 0.5,
                arrow = arrow(length = unit(0.2, "cm"))) +
-  geom_segment(aes(x = 0, xend = 0, y = -1, yend = 5), color = "black", linewidth = 0.5,
+  
+  geom_segment(aes(x = 0, 
+                   xend = 0, 
+                   y = -1, 
+                   yend = 5), 
+               color = "black", 
+               linewidth = 0.5,
                arrow = arrow(length = unit(0.2, "cm"))) +
 
   coord_equal(xlim = c(-1, 7), ylim = c(-1, 5)) +
@@ -170,8 +209,196 @@ $$|A|=|(1\cdot-4)-(3\cdot2)|=|-10|=10u^2$$
 
 ## I) $u=(1,0); v=(0,1)$
 
+**Longitud:** 
+
+$\|u\| = \sqrt{1^2 + 0^2} = \sqrt{1} = 1$
+
+$\|v\| = \sqrt{0^2 + 1^2} = \sqrt{1} = 1$
+
+**Suma de vectores:** 
+
+$u+v = (1+0, 0+1) = (1, 1)$
+
+**Área del paralelogramo:** 
+  
+$$A = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$$
+  
+$$|A| = |(1 \cdot 1) - (0 \cdot 0)| = |1| = 1u^2$$
+
+**Gráfico:**
+
+```{r graf_I, echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(grid)
+
+u <- c(1, 0)
+v <- c(0, 1)
+u_plus_v <- u + v
+
+poly <- data.frame(
+  x = c(0, u[1], u[1] + v[1], v[1]),
+  y = c(0, u[2], u[2] + v[2], v[2]),
+  id = 1
+)
+
+vecs <- data.frame(
+  x = 0, y = 0,
+  xend = c(u[1], v[1], u_plus_v[1]),
+  yend = c(u[2], v[2], u_plus_v[2]),
+  label = c("u\n(1,0)", "v\n(0,1)", "u+v\n(1,1)"),
+  color = c("#003366", "#006600", "#990000")
+)
+
+ggplot() +
+  geom_polygon(data = poly, aes(x = x, y = y, group = id),
+               fill = "steelblue", alpha = 0.2, color = "steelblue") +
+  geom_segment(data = vecs,
+               aes(x = x, y = y, xend = xend, yend = yend, color = I(color)),
+               arrow = arrow(length = unit(0.25, "cm")), linewidth = 1.2) +
+  geom_text(data = vecs,
+            aes(x = xend, y = yend, label = label, color = I(color)),
+            nudge_x = 0.15, nudge_y = 0.15, size = 5, show.legend = FALSE) +
+  geom_segment(aes(x = -0.5, xend = 2, y = 0, yend = 0),
+               color = "black", linewidth = 0.5, arrow = arrow(length = unit(0.2, "cm"))) +
+  geom_segment(aes(x = 0, xend = 0, y = -0.5, yend = 2),
+               color = "black", linewidth = 0.5, arrow = arrow(length = unit(0.2, "cm"))) +
+  coord_equal(xlim = c(-0.5, 2.5), ylim = c(-0.5, 2.5)) +
+  scale_color_identity() +
+  theme_minimal(base_size = 14) +
+  theme(panel.grid = element_blank(), axis.title = element_blank())
+```
+
 ## II) $u=(2,4); v=(1,2)$
+
+**Longitud de los vectores:**
+
+$$\Vert{}u\Vert{} = \sqrt{2^2 + 4^2} = \sqrt{4+16} = \sqrt{20} \approx 4.47$$
+
+$$\Vert{}v\Vert{} = \sqrt{1^2 + 2^2} = \sqrt{1+4} = \sqrt{5} \approx 2.24$$
+
+**Suma:**
+
+$$u+v = (2+1, 4+2) = (3, 6)$$
+
+**Área del paralelogramo:**
+
+$$A = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}$$
+
+$$\vert{}A\vert{} = \vert{}(2 \cdot 2) - (1 \cdot 4)\vert{} = \vert{}4 - 4\vert{} = 0 u^2$$
+
+El área es cero debido a que los vectores son colineales y se sobreponen en la misma línea, por lo que no forman un paralelogramo.
+
+**Gráfico:**
+
+```{r graf_II, echo=FALSE, warning=FALSE, message=FALSE}
+u <- c(2, 4)
+v <- c(1, 2)
+u_plus_v <- u + v
+
+vecs <- data.frame(
+  x = 0, y = 0,
+  xend = c(u[1], v[1], u_plus_v[1]),
+  yend = c(u[2], v[2], u_plus_v[2]),
+  label = c("u (2,4)", "v (1,2)", "u+v (3,6)"),
+  color = c("#008080", "#333333", "#990000")
+)
+
+ggplot() +
+  geom_segment(data = vecs,
+               aes(x = x, y = y, xend = xend, yend = yend, color = I(color)),
+               arrow = arrow(length = unit(0.25, "cm")), linewidth = c(2, 1, 1.5)) +
+  geom_text(data = vecs,
+            aes(x = xend, y = yend, label = label, color = I(color)),
+            nudge_x = -0.3, nudge_y = 0.4, size = 5) +
+  coord_equal(xlim = c(0, 4), ylim = c(0, 7)) +
+  theme_minimal(base_size = 14)
+```
+
 
 ## III) $u=(1,4); v=(-1,-4)$
 
+**Longitud de los vectores:**
+
+$$\Vert{}u\Vert{} = \sqrt{1^2 + 4^2} = \sqrt{17} \approx 4.12$$
+
+$$\Vert{}v\Vert{} = \sqrt{(-1)^2 + (-4)^2} = \sqrt{1+16} = \sqrt{17} \approx 4.12$$
+
+**Suma:**
+
+$$u+v = (1-1, 4-4) = (0, 0)$$
+
+**Área del paralelogramo:**
+
+$$A = \begin{bmatrix} 1 & 4 \\ -1 & -4 \end{bmatrix}$$
+
+$$\vert{}A\vert{} = \vert{}(1 \cdot -4) - (-1 \cdot 4)\vert{} = \vert{}-4 - (-4)\vert{} = 0 u^2$$
+
+El vector resultante queda en el origen ya que los vectores tienen direcciones exactamente opuestas.
+
+**Gráfico:**
+
+```{r graf_III, echo=FALSE, warning=FALSE, message=FALSE}
+u <- c(1, 4)
+v <- c(-1, -4)
+
+vecs <- data.frame(
+  x = 0, y = 0,
+  xend = c(u[1], v[1]),
+  yend = c(u[2], v[2]),
+  label = c("u (1,4)", "v (-1,-4)"),
+  color = c("#008080", "#333333")
+)
+
+ggplot() +
+  geom_segment(data = vecs,
+               aes(x = x, y = y, xend = xend, yend = yend, color = I(color)),
+               arrow = arrow(length = unit(0.25, "cm")), linewidth = 1.2) +
+  geom_text(data = vecs,
+            aes(x = xend, y = yend, label = label, color = I(color)),
+            nudge_x = 0.5, nudge_y = 0, size = 5) +
+  geom_point(aes(x = 0, y = 0), color = "#990000", size = 3) +
+  annotate("text", x = 0.5, y = -0.3, label = "u+v (0,0)", color = "#990000", size = 5) +
+  coord_equal(xlim = c(-2, 2), ylim = c(-5, 5)) +
+  theme_minimal(base_size = 14)
+```
+
 ## IV) $u=(1,0,0); v=(0,1,0); w=(0,0,1)$
+
+1. Longitud de los vectores:
+Para vectores en $\mathbb{R}^3$, la fórmula de longitud se extiende para integrar el componente de profundidad ($z$):
+$$\Vert{}u\Vert{} = \sqrt{1^2 + 0^2 + 0^2} = 1$$
+$$\Vert{}v\Vert{} = \sqrt{0^2 + 1^2 + 0^2} = 1$$
+$$\Vert{}w\Vert{} = \sqrt{0^2 + 0^2 + 1^2} = 1$$
+
+2. Suma:
+
+$$u+v+w = (1+0+0, 0+1+0, 0+0+1) = (1, 1, 1)$$
+
+3. Volumen (Área en 3D):En un espacio de tres dimensiones, los vectores forman un paralelepípedo. Representamos el sistema como una matriz de $3 \times 3$ y calculamos su determinante para obtener el volumen:
+
+$$A = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
+
+$$\vert{}A\vert{} = 1((1 \cdot 1) - (0 \cdot 0)) - 0 + 0 = 1 u^3$$
+
+4. Gráfico 3D:(Dado que ggplot2 se enfoca en representaciones en 2D, para este ejercicio incluimos el código usando la librería interactiva plotly que renderizará el espacio tridimensional en el documento final).
+
+```{r}
+# Requiere instalar.packages("plotly")
+library(plotly)
+
+fig <- plot_ly(type = "scatter3d", mode = "lines+markers") %>%
+  add_trace(x = c(0,1), y = c(0,0), z = c(0,0), name = "u (1,0,0)", 
+            line = list(color = "#008080", width = 5)) %>%
+  add_trace(x = c(0,0), y = c(0,1), z = c(0,0), name = "v (0,1,0)", 
+            line = list(color = "#333333", width = 5)) %>%
+  add_trace(x = c(0,0), y = c(0,0), z = c(0,1), name = "w (0,0,1)", 
+            line = list(color = "#555555", width = 5)) %>%
+  add_trace(x = c(0,1), y = c(0,1), z = c(0,1), name = "Suma (1,1,1)", 
+            line = list(color = "#990000", width = 6, dash = "dash")) %>%
+  layout(scene = list(xaxis = list(title = "Eje X"),
+                      yaxis = list(title = "Eje Y"),
+                      zaxis = list(title = "Eje Z")))
+
+fig
+```
+

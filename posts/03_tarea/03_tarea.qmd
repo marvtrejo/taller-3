@@ -3,6 +3,7 @@ title: "Tarea 03"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-09-19"
 categories: [Ejercicios, 2026-I]
+draft: true
 ---
 
 A partir de las siguientes matrices, resuelve los ejercicios.

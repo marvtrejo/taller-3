@@ -3,6 +3,7 @@ title: "Determinante"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-09-19"
 categories: [Apunte de clase, 2026-I]
+draft: true
 ---
 
 El determinante de una matriz es un número real compuesto por la suma de todas las permutaciones o combinaciones de los elementos de una matriz A, en las cuales hay exactamente un elemento de cada fila y uno de cada columna. 

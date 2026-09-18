@@ -3,6 +3,7 @@ title: "Tarea 04"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-09-26"
 categories: [Tarea, 2026-I]
+draft: true
 ---
 
 ## Matriz A

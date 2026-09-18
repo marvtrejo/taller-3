@@ -3,6 +3,7 @@ title: "Inversa"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-09-26"
 categories: [Apunte de clase, 2026-I]
+draft: true
 ---
 
 Una matriz $A$ es no singular e invertible si existe una matriz $B$ de $n \times n$ tal que $A \cdot B = B \cdot A = I$.

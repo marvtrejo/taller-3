@@ -3,6 +3,7 @@ title: "Tarea 02"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-09-12"
 categories: [Tarea, 2026-I]
+draft: true
 ---
 
 ## Ejercicio 1

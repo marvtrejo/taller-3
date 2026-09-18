@@ -1,0 +1,30 @@
+---
+title: "Profesores"
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .text-center}
+<!-- ![](images/foto_eduardo.jpg){.rounded-circle width="150px" style="border: 3px solid #008080; padding: 3px;"} -->
+
+## Eduardo Castro
+*Profesor Titular*
+
+Maestro en Economía por la UNAM. Especialista en monitoreo y evaluación de políticas públicas, mercado laboral, salud mental y análisis estadístico. Actualmente se desempeña como Jefe del Departamento de Apoyo Estratégico en la Dirección General de Integración, Análisis e Investigación del INEGI.
+
+[{{< fa envelope >}} Contacto](mailto:eduardo.castro@comunidad.unam.mx){.btn .btn-outline-primary .btn-sm .btn-flotante}
+:::
+
+::: {.g-col-12 .g-col-md-6 .text-center}
+
+<!--![](images/foto_marvin.jpg){.rounded-circle width="150px" style="border: 3px solid #008080; padding: 3px;"} -->
+
+## Marvin Trejo
+*Profesor Adjunto*
+
+Maestro en Economía por la UNAM y Licenciado en Economía y Antropología Social. Especialista en análisis y evaluación de políticas públicas y desarrollo social. Actualmente se desempeña como Subdirector de Análisis y Seguimiento de la Política de Desarrollo Social en la Dirección General de Evaluación y Medición de Pobreza del INEGI. 
+
+[{{< fa envelope >}} Contacto](mailto:marvtrejo@comunidad.unam.mx){.btn .btn-outline-primary .btn-sm .btn-flotante}
+:::
+
+:::

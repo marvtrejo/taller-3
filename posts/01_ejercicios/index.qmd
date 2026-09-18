@@ -3,6 +3,7 @@ title: "Solución de sistemas de ecuaciones lineales"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-08-27"
 categories: [Ejercicios, 2026-I]
+draft: true
 ---
 
 Durante esta clase resolvimos, por el método de sustitución, igualación y gráfico, los siguientes ejercicios.

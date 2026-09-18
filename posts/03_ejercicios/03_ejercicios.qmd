@@ -3,6 +3,7 @@ title: "Ejercicios sobre el determinante"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-09-19"
 categories: [Ejercicios, 2026-I]
+draft: true
 ---
 
 1) 

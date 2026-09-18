@@ -3,6 +3,7 @@ title: "Sistemas de ecuaciones lineales"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-08-27"
 categories: [Apunte de clase, 2026-I]
+draft: true
 ---
 
 ```{r librerias, include = FALSE}

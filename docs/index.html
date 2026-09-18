@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Taller de Economía Cuantitativa III</title>
+<title>Materiales del curso – Taller de Economía Cuantitativa III</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -19,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -69,15 +37,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2584ba105109237f35ef60437c857578.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -136,7 +103,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -165,8 +132,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Taller de Economía Cuantitativa III" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed quarto-light">
 
@@ -176,6 +142,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/FE_logo.png" alt="Facultad de Economía UNAM" class="navbar-logo light-content">
+    <img src="./images/FE_logo.png" alt="Facultad de Economía UNAM" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Taller de Economía Cuantitativa III</span>
@@ -186,10 +154,22 @@ window.Quarto = {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Acerca del curso</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./bibliografia.html"> 
+<span class="menu-text">Bibliografía</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./profesores.html"> 
+<span class="menu-text">Profesores</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -202,7 +182,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <div class="quarto-title-block"><div><h1 class="title">Taller de Economía Cuantitativa III</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+      <h1 class="title">Materiales del curso</h1>
                       </div>
   </div>
     
@@ -220,7 +200,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="MjAyNi1J">2026-I <span class="quarto-category-count">(11)</span></div><div class="category" data-category="MjAyNy1J">2027-I <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QXB1bnRlJTIwZGUlMjBjbGFzZQ==">Apunte de clase <span class="quarto-category-count">(8)</span></div><div class="category" data-category="RWplcmNpY2lvcw==">Ejercicios <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VGFyZWE=">Tarea <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="MjAyNy1J">2027-I <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QXB1bnRlJTIwZGUlMjBjbGFzZQ==">Apunte de clase <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VGFyZWE=">Tarea <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -231,15 +211,13 @@ window.Quarto = {
 
 
 
-<!-- -->
-
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjctSQ==" data-listing-date-sort="1789106400000" data-listing-file-modified-sort="1789683788302" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1077">
+<div class="g-col-1" data-index="0" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjctSQ==" data-listing-date-sort="1789106400000" data-listing-file-modified-sort="1789689846447" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2804">
 <a href="./posts/2027i_0911/11sept_vectores.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top"><img loading='lazy' src="posts\2027i_0911\11sept_vectores_files\figure-html\vectores-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Clase 03: Vectores
@@ -252,7 +230,7 @@ Clase 03: Vectores
 
 </div>
 <div class="card-text listing-description delink">
-
+Los vectores son una entidad matemática con <strong>magnitud (tamaño)</strong> y <strong>dirección</strong>. Gráficamente, se representa como un <strong>segmento de línea dirigido</strong> en un plano.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -265,7 +243,7 @@ Sep 11, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="VGFyZWElMkMyMDI3LUk=" data-listing-date-sort="1789106400000" data-listing-file-modified-sort="1789664082048" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1915">
+<div class="g-col-1" data-index="1" data-categories="VGFyZWElMkMyMDI3LUk=" data-listing-date-sort="1789106400000" data-listing-file-modified-sort="1789686054263" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1915">
 <a href="./posts/2027i_tarea01/2027i_tarea01.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -281,7 +259,7 @@ Tarea 01
 
 </div>
 <div class="card-text listing-description delink">
-Partiendo de las siguientes funciones de oferta (<span class="math inline">\(Q_S\)</span>) y demanda (<span class="math inline">\(D\)</span>), determina el precio y cantidad de equilibrio por el <strong>método de Gauss-Jordan</strong>.
+Partiendo de las siguientes funciones de oferta (<span class="math inline">\(Q_S\)</span>) y demanda (<span class="math inline">\(Q_D\)</span>), determina el precio y cantidad de equilibrio por el <strong>método de Gauss-Jordan</strong>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -294,7 +272,7 @@ Sep 11, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjctSQ==" data-listing-date-sort="1788501600000" data-listing-file-modified-sort="1789659541560" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1546">
+<div class="g-col-1" data-index="2" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjctSQ==" data-listing-date-sort="1788501600000" data-listing-file-modified-sort="1789686054241" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1546">
 <a href="./posts/2027i_0904/04sept_Matrices.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -323,7 +301,7 @@ Sep 4, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjctSQ==" data-listing-date-sort="1787896800000" data-listing-file-modified-sort="1789659541563" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2184">
+<div class="g-col-1" data-index="3" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjctSQ==" data-listing-date-sort="1787896800000" data-listing-file-modified-sort="1789585975068" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2184">
 <a href="./posts/2027i_0828/28ago_SEL.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -347,354 +325,6 @@ Eduardo Castro; Marvin Trejo
 </div>
 <div class="listing-date">
 Aug 28, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjYtSQ==" data-listing-date-sort="1761804000000" data-listing-file-modified-sort="1788890092307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3074">
-<a href="./posts/05_vectores/05_vectores.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\05_vectores\05_vectores_files\figure-html\vectores-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Vectores
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXB1bnRlJTIwZGUlMjBjbGFzZQ=='); return false;">Apunte de clase</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-Los vectores son una entidad matemática con <strong>magnitud (tamaño)</strong> y <strong>dirección</strong>. Representada gráficamente como un <strong>segmento de línea dirigido</strong> en un plano.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Oct 30, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjYtSQ==" data-listing-date-sort="1758866400000" data-listing-file-modified-sort="1788890072826" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1205">
-<a href="./posts/04_inversa/04_inversa.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Inversa
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXB1bnRlJTIwZGUlMjBjbGFzZQ=='); return false;">Apunte de clase</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-Una matriz <span class="math inline">\(A\)</span> es no singular e invertible si existe una matriz <span class="math inline">\(B\)</span> de <span class="math inline">\(n \times n\)</span> tal que <span class="math inline">\(A \cdot B = B \cdot A = I\)</span>. La matriz B se denomina <strong>inversa de A</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Sep 26, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="VGFyZWElMkMyMDI2LUk=" data-listing-date-sort="1758866400000" data-listing-file-modified-sort="1788890083957" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
-<a href="./posts/04_tarea/04_tarea.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tarea 04
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGFyZWE='); return false;">Tarea</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-<span class="math display">\[
-A =
-\left[
-\begin{array}{ccc}
-1 &amp; 4 \\
--2 &amp; 0 \\
-\end{array}
-\right]
-\]</span>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Sep 26, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjYtSQ==" data-listing-date-sort="1758261600000" data-listing-file-modified-sort="1788890043188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1516">
-<a href="./posts/03_determinante/03_determinantes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\03_determinante\03_determinantes_files\figure-html\paralelogramo-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Determinante
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXB1bnRlJTIwZGUlMjBjbGFzZQ=='); return false;">Apunte de clase</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-El determinante de una matriz es un número real compuesto por la suma de todas las permutaciones o combinaciones de los elementos de una matriz A, en las cuales hay…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Sep 19, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="RWplcmNpY2lvcyUyQzIwMjYtSQ==" data-listing-date-sort="1758261600000" data-listing-file-modified-sort="1788890051189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
-<a href="./posts/03_ejercicios/03_ejercicios.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ejercicios sobre el determinante
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RWplcmNpY2lvcw=='); return false;">Ejercicios</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-<span class="math display">\[
-\left|
-\begin{array}{ccc}
-1 &amp; 0 &amp; 3 \\
-0 &amp; 1 &amp; 4 \\
-2 &amp; 1 &amp; 0
-\end{array}
-\right|
-\]</span>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Sep 19, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="RWplcmNpY2lvcyUyQzIwMjYtSQ==" data-listing-date-sort="1758261600000" data-listing-file-modified-sort="1788890059905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="736">
-<a href="./posts/03_tarea/03_tarea.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tarea 03
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RWplcmNpY2lvcw=='); return false;">Ejercicios</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-A partir de las siguientes matrices, resuelve los ejercicios.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Sep 19, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjYtSQ==" data-listing-date-sort="1757656800000" data-listing-file-modified-sort="1788890010193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1331">
-<a href="./posts/02_matrices/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Matrices
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXB1bnRlJTIwZGUlMjBjbGFzZQ=='); return false;">Apunte de clase</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-El método de eliminación es otra forma de resolver sistemas de ecuaciones lineales. Este método consiste en sumar o restar las ecuaciones de nuestro sistema o múltiplos de…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Sep 12, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="VGFyZWElMkMyMDI2LUk=" data-listing-date-sort="1757656800000" data-listing-file-modified-sort="1788890029973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1501">
-<a href="./posts/02_tarea/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tarea 02
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGFyZWE='); return false;">Tarea</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-<span class="math display">\[
-\begin{aligned}
--3x+2 &amp;= -4 \\
--\frac{7}{4}-y &amp;= -2x \\
-\end{aligned}
-\implies
-\left[
-\begin{array}{cc|c}
--3 &amp; 4 &amp; -2 \\
-2 &amp; -1 &amp; \frac{7}{4}
-\end{array}
-\right]
-\\\\
-\]</span>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Sep 12, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="VGFyZWElMkMyMDI2LUk=" data-listing-date-sort="1757052000000" data-listing-file-modified-sort="1788890002613" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="26" data-listing-word-count-sort="5199">
-<a href="./posts/01_tarea/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tarea 01
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGFyZWE='); return false;">Tarea</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-Partiendo de las siguientes funciones de oferta (<span class="math inline">\(Q_S\)</span>) y demanda (<span class="math inline">\(Q_D\)</span>) determine el precio y cantidad de equilibrio por los <strong>métodos de igualación, sustitución y gráfico</strong>…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Sep 5, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="RWplcmNpY2lvcyUyQzIwMjYtSQ==" data-listing-date-sort="1756274400000" data-listing-file-modified-sort="1788889978010" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2242">
-<a href="./posts/01_ejercicios/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Solución de sistemas de ecuaciones lineales
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RWplcmNpY2lvcw=='); return false;">Ejercicios</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-Durante esta clase resolvimos, por el método de sustitución, igualación y gráfico, los siguientes ejercicios.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Aug 27, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="QXB1bnRlJTIwZGUlMjBjbGFzZSUyQzIwMjYtSQ==" data-listing-date-sort="1756274400000" data-listing-file-modified-sort="1788889992263" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1695">
-<a href="./posts/01_sel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sistemas de ecuaciones lineales
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXB1bnRlJTIwZGUlMjBjbGFzZQ=='); return false;">Apunte de clase</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNi1J'); return false;">2026-I</div>
-
-</div>
-<div class="card-text listing-description delink">
-Una ecuación es una igualdad matemática en la que existen una o varias incógnitas y que solo es verdadera para determinados valores de las incógnitas.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Eduardo Castro; Marvin Trejo
-</div>
-<div class="listing-date">
-Aug 27, 2025
 </div>
 </div>
 </div>
@@ -774,60 +404,9 @@ Aug 27, 2025
       });
       clipboardModal.on('success', onCopySuccess);
     }
-    const viewSource = window.document.getElementById('quarto-view-source') ||
-                       window.document.getElementById('quarto-code-tools-source');
-    if (viewSource) {
-      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-      viewSource.addEventListener("click", function(e) {
-        if (sourceUrl) {
-          // rstudio viewer pane
-          if (/\bcapabilities=\b/.test(window.location)) {
-            window.open(sourceUrl);
-          } else {
-            window.location.href = sourceUrl;
-          }
-        } else {
-          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-          modal.show();
-        }
-        return false;
-      });
-    }
-    function toggleCodeHandler(show) {
-      return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
-          if (show) {
-            details.open = true;
-          } else {
-            details.removeAttribute("open");
-          }
-        }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-        const fromCls = show ? "hidden" : "unhidden";
-        const toCls = show ? "unhidden" : "hidden";
-        for (let i=0; i<cellCodeDivs.length; i++) {
-          const codeDiv = cellCodeDivs[i];
-          if (codeDiv.classList.contains(fromCls)) {
-            codeDiv.classList.remove(fromCls);
-            codeDiv.classList.add(toCls);
-          } 
-        }
-        return false;
-      }
-    }
-    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-    if (hideAllCode) {
-      hideAllCode.addEventListener("click", toggleCodeHandler(false));
-    }
-    const showAllCode = window.document.getElementById("quarto-show-all-code");
-    if (showAllCode) {
-      showAllCode.addEventListener("click", toggleCodeHandler(true));
-    }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1153,21 +732,7 @@ Aug 27, 2025
       }
     }
   });
-  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Taller de Economía Cuantitativa III"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">listing:</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  contents: posts</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  feed: true</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  sort: "date desc"</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">  type: grid</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">  categories: true</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  sort-ui: false</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  filter-ui: false</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
-</div></div></div></div></div>
+  </script>
 </div> <!-- /content -->
 
 

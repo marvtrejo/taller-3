@@ -1,7 +1,7 @@
 ---
-title: "Taller de Economía Cuantitativa III"
+title: "Materiales del curso"
 listing:
-  contents: posts
+  contents: "posts/**/*.qmd"
   feed: true
   sort: "date desc"
   type: grid

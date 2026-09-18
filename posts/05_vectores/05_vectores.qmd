@@ -4,6 +4,7 @@ description: ""
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-10-30"
 categories: [Apunte de clase, 2026-I]
+draft: true
 ---
 
 ## Definición

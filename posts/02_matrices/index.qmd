@@ -3,6 +3,7 @@ title: "Matrices"
 author: "Eduardo Castro; Marvin Trejo"
 date: "2025-09-12"
 categories: [Apunte de clase, 2026-I]
+draft: true
 ---
 
 ## Método de eliminación
